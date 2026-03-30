@@ -1,0 +1,277 @@
+================================================================================
+  FML PROJECT — COMPATIBILITY GUIDE FOR linear_models_selection.py
+================================================================================
+
+This guide ensures that datasets and code produced by team members plug directly
+into the model selection pipeline (linear_models_selection.py) without manual
+edits. Read both sections before writing any data or code.
+
+
+================================================================================
+  SECTION 1 — DATASET FORMAT AND NAMING CONVENTIONS
+================================================================================
+
+The script reads a single CSV file (currently "merged_panel.csv") and auto-
+discovers columns by their name prefix. Getting naming right is the only thing
+that matters for compatibility.
+
+--------------------------------------------------------------------------------
+1.1  FILE FORMAT
+--------------------------------------------------------------------------------
+
+  - Format:        CSV
+  - Index column:  Date (column 0), parsed as datetime
+  - Date format:   YYYY-MM-DD  (e.g. 2012-03-15)
+  - Frequency:     Daily (one row per trading day, no gaps)
+  - Sort order:    Ascending chronological (oldest row first)
+  - Value type:    All columns must be float64 (no strings, no integers)
+  - NaN policy:    NaN is allowed — the script calls .dropna() per target before
+                   fitting. However, excessive NaN in surp_ columns is expected
+                   (events occur on specific days only; all other days are NaN).
+
+  Current dataset shape: 4500 rows × 155 columns (2008-02-13 to 2025-12-31)
+
+--------------------------------------------------------------------------------
+1.2  COLUMN NAMING RULES  ← most important section
+--------------------------------------------------------------------------------
+
+The script uses three prefix-based rules to find columns automatically:
+
+  ret_cols  = columns where name starts with "ret_"  AND does not contain "_lag"
+  surp_cols = columns where name starts with "surp_"
+  vix       = column named exactly "vix_lag1"
+
+  ┌─────────────────────────────────────────────────────────────────────────┐
+  │  PREFIX     │  MEANING              │  EXAMPLES                         │
+  ├─────────────────────────────────────────────────────────────────────────│
+  │  ret_       │  Return target        │  ret_XLE, ret_XLF, ret_GSPC       │
+  │  ret_*_lag1 │  AR(1) predictor      │  ret_XLE_lag1, ret_GSPC_lag1      │
+  │  surp_      │  Macro surprise lag   │  surp_nfp_lag0, surp_cpi_lag3     │
+  │  vix_lag1   │  VIX predictor        │  vix_lag1  (exact name)           │
+  └─────────────────────────────────────────────────────────────────────────┘
+
+  CRITICAL RULES:
+
+  (a) Every return target ret_XYZ must have a matching AR lag column ret_XYZ_lag1.
+      The script constructs the AR predictor as:
+          ar_term = f"{target}_lag1"
+      If ret_XYZ_lag1 is missing the script will raise a KeyError.
+
+  (b) Surprise columns must follow the exact pattern:
+          surp_{event_name}_lag{k}
+      where k is an integer from 0 to 6 (7 lags per event).
+      All 7 lags MUST be present for each event even if most values are NaN.
+      Example for NFP:
+          surp_nfp_lag0  surp_nfp_lag1  ...  surp_nfp_lag6
+
+  (c) Event names (the middle part of surp_ columns) must be lowercase with
+      underscores only. No spaces, no dashes, no uppercase.
+      Good:  surp_ism_mfg_lag0
+      Bad:   surp_ISM-MFG_lag0   ← will still be picked up but avoid for clarity
+
+  (d) Do NOT add columns with prefix "ret_" that are not return targets (e.g.
+      do not name a column "ret_signal_XLE"). The script will treat any "ret_*"
+      without "_lag" as a prediction target and run a full model comparison on it.
+
+  (e) The VIX predictor must be named exactly "vix_lag1". Any other name is
+      silently ignored as a predictor.
+
+--------------------------------------------------------------------------------
+1.3  CURRENT COLUMN INVENTORY (merged_panel.csv)
+--------------------------------------------------------------------------------
+
+  Return targets (7):
+      ret_XLE, ret_XLF, ret_XLI, ret_XLK, ret_XLV, ret_GSPC, ret_RUT
+
+  AR(1) lags (7):
+      ret_XLE_lag1, ret_XLF_lag1, ret_XLI_lag1, ret_XLK_lag1,
+      ret_XLV_lag1, ret_GSPC_lag1, ret_RUT_lag1
+
+  Macro surprise lags (20 events × 7 lags = 140 columns):
+      Events: nfp, unemp, ahe, jobless, cpi, core_cpi, core_pce, gdp,
+              ism_mfg, retail_sales, ind_prod, fed_rate, trade_bal, ppi,
+              durable_goods, housing_starts, conf_board, philly_fed,
+              pers_income, jolts
+      Each event has lags 0–6:
+          surp_{event}_lag0  through  surp_{event}_lag6
+
+  VIX (1):
+      vix_lag1
+
+  Total: 7 + 7 + 140 + 1 = 155 columns
+
+--------------------------------------------------------------------------------
+1.4  ADDING NEW COLUMNS (for team members extending the dataset)
+--------------------------------------------------------------------------------
+
+  To add a new return target (e.g. ret_XLB):
+      1. Add column "ret_XLB"      — daily log-return or excess return, float
+      2. Add column "ret_XLB_lag1" — same series shifted by 1 trading day
+
+  To add a new macro surprise variable (e.g. ISM Services):
+      Add exactly 7 columns:
+          surp_ism_svc_lag0
+          surp_ism_svc_lag1
+          ...
+          surp_ism_svc_lag6
+      On days with no release: set to NaN (not 0 — NaN and 0 have different
+      economic interpretations and 0 would be treated as "no surprise").
+      On release days: populate lag0 with the standardised surprise value,
+      lag1 gets the previous release's lag0, lag2 gets the previous lag1, etc.
+
+  To add a new control variable (not a surprise, not a return):
+      This is NOT currently supported. The script's predictor set is fixed as:
+          [ar_term] + surp_cols + ['vix_lag1']
+      If you need additional controls, discuss with the repo owner before adding
+      them, as the script would need to be updated to pick them up.
+
+  Rules that must not be broken:
+      - Do not rename existing columns (breaks all prior results)
+      - Do not change the date index or introduce gaps
+      - Do not convert NaN to 0 in surprise columns
+      - Do not change the sort order (must remain ascending)
+
+
+================================================================================
+  SECTION 2 — CODE STRUCTURE FOR COMPATIBILITY
+================================================================================
+
+If you are writing a separate script that produces either (a) a processed dataset
+or (b) a model that you want compared in the pipeline, follow these guidelines.
+
+--------------------------------------------------------------------------------
+2.1  DATA MERGING SCRIPTS  (producing merged_panel.csv)
+--------------------------------------------------------------------------------
+
+Your script should output a single CSV file. Use this template:
+
+    import pandas as pd
+
+    # ... your data loading and processing ...
+
+    # Final DataFrame must:
+    #   - have a DatetimeIndex named "date" (or any name — it becomes index col 0)
+    #   - be sorted ascending
+    #   - contain only float64 columns
+    #   - follow the naming rules in Section 1.2
+
+    panel = pd.DataFrame({...})          # build your columns
+    panel.index = pd.to_datetime(panel.index)
+    panel = panel.sort_index()
+    panel = panel.astype(float)          # ensure float64 throughout
+
+    # Verify naming before saving
+    assert all(c.startswith('ret_') or c.startswith('surp_') or c == 'vix_lag1'
+               for c in panel.columns), "Unknown column prefix found"
+
+    # For every ret_XYZ, check that ret_XYZ_lag1 exists
+    ret_targets = [c for c in panel.columns
+                   if c.startswith('ret_') and '_lag' not in c]
+    for t in ret_targets:
+        assert f"{t}_lag1" in panel.columns, f"Missing AR lag for {t}"
+
+    panel.to_csv('merged_panel.csv', index=True)
+
+  When merging multiple team members' datasets:
+    - Use pd.merge(..., how='outer', left_index=True, right_index=True)
+      or pd.concat([df1, df2, ...], axis=1) on the date index
+    - After merging, reindex to the full daily trading calendar and keep NaN
+      where data is unavailable (do not forward-fill surprise columns)
+    - Save once as merged_panel.csv; all subsequent work uses this file
+
+  To switch the pipeline to your new dataset:
+    - Open linear_models_selection.py line 28
+    - Change:   df = pd.read_csv('test_set.csv', ...)
+    - To:       df = pd.read_csv('merged_panel.csv', ...)
+    - No other changes needed
+
+--------------------------------------------------------------------------------
+2.2  COMPUTING SURPRISE SERIES  (for macro data contributors)
+--------------------------------------------------------------------------------
+
+The surprise series is defined as:
+    surp = (actual_release - consensus_forecast) / normalisation
+
+Normalisation should be consistent across your event (e.g. rolling std of
+historical surprises, or just raw difference if units are self-explanatory).
+Do not use a global scaler — the pipeline standardises all predictors itself
+using StandardScaler fitted on training data only.
+
+Constructing the lag columns from a raw surprise series:
+
+    import pandas as pd
+
+    def make_surp_lags(raw_surp: pd.Series, name: str, n_lags: int = 7) -> pd.DataFrame:
+        """
+        raw_surp : Series indexed by trading date, NaN on non-release days
+        name     : event name, e.g. "nfp"
+        Returns  : DataFrame with columns surp_{name}_lag0 ... surp_{name}_lag{n_lags-1}
+        """
+        cols = {}
+        for k in range(n_lags):
+            col_name = f"surp_{name}_lag{k}"
+            cols[col_name] = raw_surp.shift(k)
+        return pd.DataFrame(cols, index=raw_surp.index)
+
+  This correctly shifts the release so lag0 is same-day, lag1 is 1 day later, etc.
+  The script uses lags 0–6 (7 lags) per event.
+
+--------------------------------------------------------------------------------
+2.3  IF YOU ARE ADDING A NEW MODEL METHOD TO THE PIPELINE
+--------------------------------------------------------------------------------
+
+The pipeline compares methods via three tables per target:
+  - Table 1: CV MSE   (TimeSeriesSplit, K=5 folds, train period only)
+  - Table 2: In-sample stats  (Adj.R², Cp, BIC on full training data)
+  - Table 3: OOS Test MSE + Campbell-Thompson R² (test period 2021–2025)
+
+To add a new method, find the three result-row lists in the target loop and
+add one entry to each:
+
+  cv_rows:
+    ('My Method',  my_cv_mse,   'description of best param')
+
+  insam_rows (inside the for-loop):
+    ('My Method',  Yhat_my_method_train,  p_my_method)
+    # where p_my_method = number of non-zero / effective parameters
+
+  oos_rows:
+    ('My Method',  test_mse(Y_test, _yhat_my),
+                   oos_r2(Y_train, Y_test, _yhat_my))
+
+  Requirements for your method to be compatible:
+    (a) CV must use the same tscv = TimeSeriesSplit(n_splits=5) object
+    (b) Fit ONLY on training data (train_df, up to and including 2020-12-31)
+    (c) Predict on test data (test_df, from 2021-01-01 onward)
+    (d) If your method standardises inputs, it must re-fit the scaler inside
+        each CV fold (use sklearn Pipeline — see existing Ridge/Lasso/PCR/PLS
+        implementations as templates)
+    (e) Report CV MSE as a single float (mean across folds)
+    (f) OOS predictions must be a 1-D numpy array of length len(Y_test)
+
+
+================================================================================
+  SECTION 3 — QUICK REFERENCE CHECKLIST
+================================================================================
+
+Before handing over a dataset, verify:
+
+  [ ] Index is DatetimeIndex, sorted ascending, format YYYY-MM-DD
+  [ ] All columns are float64 (no objects, no int)
+  [ ] Every return target ret_XYZ has a matching ret_XYZ_lag1 column
+  [ ] All surprise events have exactly 7 lag columns (lag0 through lag6)
+  [ ] Surprise columns use NaN (not 0) on non-release days
+  [ ] No unexpected column prefixes (only ret_, surp_, vix_lag1)
+  [ ] File saved as CSV with the date index in column 0
+
+Before handing over a model script, verify:
+
+  [ ] Uses tscv = TimeSeriesSplit(n_splits=5) for cross-validation
+  [ ] Train/test split is exactly :'2020-12-31' / '2021-01-01':
+  [ ] Scaler (if any) is fitted only on fold training data, not full training data
+  [ ] Provides: cv_mse (float), Yhat_train (array), Yhat_test (array), p (int)
+  [ ] Does not modify Y_train, Y_test, X_train, X_test, or any shared variable
+
+================================================================================
+  END OF GUIDE
+================================================================================

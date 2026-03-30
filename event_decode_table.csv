@@ -1,0 +1,189 @@
+event_id,event
+1,ADP Nonfarm Employment Change
+8,Average Hourly Earnings
+10,Beige Book
+25,Building Permits
+29,Business Inventories
+31,Capacity Utilization Rate
+38,Chicago PMI
+45,Construction Spending
+48,CB Consumer Confidence
+52,Consumer Credit
+56,Core CPI
+59,Core Durable Goods Orders
+61,Core PCE Price Index
+62,Core PPI
+63,Core Retail Sales
+69,CPI
+75,Crude Oil Inventories
+81,Current Account
+84,Discount Rate
+85,Total Vehicle Sales
+86,Durable Goods Orders
+99,Existing Home Sales
+100,Factory Orders
+101,Fed Chairman Bernanke Speaks
+104,Fed Governor Mishkin Speaks
+105,Fed Governor Warsh Speaks
+108,FOMC Meeting Minutes
+151,Housing Starts
+153,Import Price Index
+161,Industrial Production
+168,Fed Interest Rate Decision
+173,ISM Manufacturing PMI
+174,ISM Manufacturing Prices
+176,ISM Non-Manufacturing PMI
+218,NAHB Housing Market Index
+222,New Home Sales
+227,Nonfarm Payrolls
+228,Nonfarm Productivity
+232,Pending Home Sales
+234,Personal Income
+235,Personal Spending
+236,Philadelphia Fed Manufacturing Index
+238,PPI
+256,Retail Sales
+263,Richmond Manufacturing Index
+283,TIC Net Long-Term Transactions
+286,Trade Balance
+292,Treasury Secretary Paulson Speaks
+294,Initial Jobless Claims
+300,Unemployment Rate
+303,Unit Labor Costs
+305,Wholesale Inventories
+320,Michigan Consumer Sentiment
+323,NY Empire State Manufacturing Index
+325,IBD/TIPP Economic Optimism
+327,House Price Index
+329,S&P/CS HPI Composite - 20 n.s.a.
+331,Employment Cost Index
+333,Challenger Job Cuts
+343,GDP Price Index
+369,Federal Budget Balance
+375,GDP
+379,Average Weekly Hours
+381,Bloomberg Consumer Confidence
+386,Natural Gas Storage
+389,Michigan 1-Year Inflation Expectations
+484,MBA Delinquency Rates
+485,Gasoline Inventories
+522,Continuing Jobless Claims
+523,Chicago Fed National Activity
+528,Private Nonfarm Payrolls
+537,NFIB Small Business Optimism
+569,2-Year Note Auction
+570,5-Year Note Auction
+571,10-Year Note Auction
+572,30-Year Bond Auction
+654,"US Foreign Buying, T-bonds"
+656,API Weekly Crude Oil Stock
+657,API Weekly Gasoline Stock
+658,Dallas Fed Mfg Business Index
+660,CB Employment Trends Index
+662,KC Fed Composite Index
+663,Overall Net Capital Flow
+733,CPI
+734,PPI
+735,Core PPI
+736,Core CPI
+829,S&P Global Manufacturing PMI
+885,Building Permits
+887,Cleveland CPI
+888,Challenger Job Cuts
+889,Domestic Car Sales
+890,Real Earnings
+891,Existing Home Sales
+892,Export Price Index
+893,Factory orders ex transportation
+895,Real Personal Consumption
+896,New Home Sales
+897,House Price Index
+898,Housing Starts
+899,KC Fed Manufacturing Index
+900,Michigan Consumer Expectations
+901,Michigan Current Conditions
+903,TIC Net Long-Term Transactions including Swaps
+904,PCE price index
+905,Core PCE Price Index
+906,PCE Price index
+907,Philly Fed Business Conditions
+908,Philly Fed Employment
+913,S&P/CS HPI Composite - 20 n.s.a.
+914,Real Consumer Spending
+917,EIA Weekly Distillates Stocks
+1035,API Weekly Distillates Stocks
+1041,Jobless Claims 4-Week Avg.
+1042,MBA 30-Year Mortgage Rate
+1046,ISM Manufacturing Employment
+1047,Goods Orders Non Defense Ex Air
+1048,ISM Non-Manufacturing Employment
+1049,ISM Non-Manufacturing Prices
+1050,ISM Non-Manufacturing New Orders
+1057,JOLTS Job Openings
+1062,S&P Global Services PMI
+1226,Core CPI Index
+1307,Manufacturing Production
+1315,Corporate Profits
+1334,S&P/CS HPI Composite - 20 s.a.
+1404,QE MBS
+1405,QE Total
+1406,QE Treasuries
+1444,Dallas Fed Services Revenues
+1445,Domestic Truck Sales
+1446,Durables Excluding Defense
+1468,GDP Sales
+1483,ISM Manufacturing New Orders Index
+1484,ISM Non-Manufacturing Business Activity
+1492,S&P Global Composite PMI
+1501,Philly Fed CAPEX Index
+1502,Philly Fed New Orders
+1503,Philly Fed Prices Paid
+1506,Retail Control
+1507,Retail Sales Ex Gas/Autos
+1519,Texas Services Sector Outlook
+1531,Manufacturing Payrolls
+1534,"Payrolls Benchmark, n.s.a."
+1548,Core PCE Prices
+1549,"CPI Index, n.s.a."
+1568,Michigan 5-Year Inflation Expectations
+1571,PCE Prices
+1579,Government Payrolls
+1581,Participation Rate
+1609,Fed Labor Market Conditions Index
+1650,Goods Trade Balance
+1652,U.S. Baker Hughes Oil Rig Count
+1656,API Weekly Cushing Crude Oil Stock
+1657,Cushing Crude Oil Inventories
+1658,Crude Oil Imports
+1659,Heating Oil Stockpiles
+1660,Distillate Fuel Production
+1661,Gasoline Production
+1670,U6 Unemployment Rate
+1746,Import Price Index ex Petroleum
+1747,Import Price Index
+1748,Export Price Index
+1751,Cap Goods Ship Non Defense Ex Air
+1755,Industrial Production
+1762,Exports
+1763,Imports
+1765,Wholesale Trade Sales
+1771,PCE Deflator
+1772,PCE Deflator
+1777,Average Hourly Earnings
+1810,U.S. Baker Hughes Total Rig Count
+1878,Retail Sales
+1887,Retail Inventories Ex Auto
+1888,"CPI, n.s.a"
+1889,"CPI Index, s.a"
+1890,ISM NY Business Conditions
+1939,Interest Rate Projection - 1st Yr
+1940,Interest Rate Projection - 2nd Yr
+1942,Interest Rate Projection - Longer
+1943,Interest Rate Projection - Current
+1961,EIA Weekly Refinery Utilization Rates
+1968,US Leading Index
+2024,NY Fed 1-Year Consumer Inflation Expectations
+2030,Durables Excluding Transport
+2048,PPI ex. Food/Energy/Transport
+2049,PPI ex. Food/Energy/Transport
+2260,Atlanta Fed GDPNow
