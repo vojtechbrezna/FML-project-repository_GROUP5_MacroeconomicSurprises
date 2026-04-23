@@ -1,0 +1,17 @@
+,mean_abs_shap
+vix_main_effect,0.005979202606021383
+surp_nfp,6.408910286248917e-06
+surp_unemp,0.0
+surp_corecpi,0.0
+surp_gdp,0.0
+surp_retsailes,0.0
+surp_ism_pmi,7.643407072051582e-06
+surp_dgorders,0.0
+surp_newhomesales,0.0
+surp_consconfid,4.485970623950393e-06
+surp_avghourlyearnmings,0.0
+surp_cpi,0.0
+surp_tradebal,0.0
+surp_indprod,0.0
+surp_fedratedec,0.0
+VIXCLS,0.005979202606021355

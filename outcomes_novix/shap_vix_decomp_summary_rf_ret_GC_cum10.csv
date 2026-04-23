@@ -1,0 +1,17 @@
+,mean_abs_shap
+vix_main_effect,0.0013913802902705886
+surp_nfp,7.513821032822325e-06
+surp_unemp,2.345611575969907e-06
+surp_corecpi,4.5761203768455727e-07
+surp_gdp,0.0
+surp_retsailes,8.196669876387691e-06
+surp_ism_pmi,5.7451322868705625e-06
+surp_dgorders,7.3521837193134196e-06
+surp_newhomesales,9.569025445529579e-06
+surp_consconfid,5.80280583102791e-06
+surp_avghourlyearnmings,4.0326286872485675e-06
+surp_cpi,0.0
+surp_tradebal,6.431710851496133e-06
+surp_indprod,6.724455172953332e-06
+surp_fedratedec,0.0
+VIXCLS,0.0013913802902705914
