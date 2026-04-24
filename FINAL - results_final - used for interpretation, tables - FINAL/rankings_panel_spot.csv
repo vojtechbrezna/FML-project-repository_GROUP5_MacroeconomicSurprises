@@ -1,0 +1,1569 @@
+Asset,Horizon,Model,Feature,Rank,MaxRank
+CADUSD,spot,Fwd (Cp),surp_nfp,11,14
+CADUSD,spot,Fwd (Cp),surp_unemp,0,14
+CADUSD,spot,Fwd (Cp),surp_corecpi,13,14
+CADUSD,spot,Fwd (Cp),surp_gdp,14,14
+CADUSD,spot,Fwd (Cp),surp_retsales,0,14
+CADUSD,spot,Fwd (Cp),surp_ism_pmi,0,14
+CADUSD,spot,Fwd (Cp),surp_dgorders,10,14
+CADUSD,spot,Fwd (Cp),surp_newhomesales,0,14
+CADUSD,spot,Fwd (Cp),surp_consconfid,8,14
+CADUSD,spot,Fwd (Cp),surp_avghourlyearnings,12,14
+CADUSD,spot,Fwd (Cp),surp_cpi,7,14
+CADUSD,spot,Fwd (Cp),surp_tradebal,9,14
+CADUSD,spot,Fwd (Cp),surp_indprod,0,14
+CADUSD,spot,Fwd (Cp),surp_fedratedec,0,14
+CADUSD,spot,Fwd (CV),surp_nfp,0,14
+CADUSD,spot,Fwd (CV),surp_unemp,0,14
+CADUSD,spot,Fwd (CV),surp_corecpi,0,14
+CADUSD,spot,Fwd (CV),surp_gdp,0,14
+CADUSD,spot,Fwd (CV),surp_retsales,0,14
+CADUSD,spot,Fwd (CV),surp_ism_pmi,0,14
+CADUSD,spot,Fwd (CV),surp_dgorders,0,14
+CADUSD,spot,Fwd (CV),surp_newhomesales,0,14
+CADUSD,spot,Fwd (CV),surp_consconfid,0,14
+CADUSD,spot,Fwd (CV),surp_avghourlyearnings,0,14
+CADUSD,spot,Fwd (CV),surp_cpi,0,14
+CADUSD,spot,Fwd (CV),surp_tradebal,0,14
+CADUSD,spot,Fwd (CV),surp_indprod,0,14
+CADUSD,spot,Fwd (CV),surp_fedratedec,0,14
+CADUSD,spot,Bwd (Cp),surp_nfp,10,14
+CADUSD,spot,Bwd (Cp),surp_unemp,0,14
+CADUSD,spot,Bwd (Cp),surp_corecpi,12,14
+CADUSD,spot,Bwd (Cp),surp_gdp,13,14
+CADUSD,spot,Bwd (Cp),surp_retsales,0,14
+CADUSD,spot,Bwd (Cp),surp_ism_pmi,0,14
+CADUSD,spot,Bwd (Cp),surp_dgorders,0,14
+CADUSD,spot,Bwd (Cp),surp_newhomesales,14,14
+CADUSD,spot,Bwd (Cp),surp_consconfid,8,14
+CADUSD,spot,Bwd (Cp),surp_avghourlyearnings,11,14
+CADUSD,spot,Bwd (Cp),surp_cpi,7,14
+CADUSD,spot,Bwd (Cp),surp_tradebal,9,14
+CADUSD,spot,Bwd (Cp),surp_indprod,0,14
+CADUSD,spot,Bwd (Cp),surp_fedratedec,0,14
+CADUSD,spot,Bwd (CV),surp_nfp,0,14
+CADUSD,spot,Bwd (CV),surp_unemp,0,14
+CADUSD,spot,Bwd (CV),surp_corecpi,0,14
+CADUSD,spot,Bwd (CV),surp_gdp,0,14
+CADUSD,spot,Bwd (CV),surp_retsales,0,14
+CADUSD,spot,Bwd (CV),surp_ism_pmi,0,14
+CADUSD,spot,Bwd (CV),surp_dgorders,0,14
+CADUSD,spot,Bwd (CV),surp_newhomesales,0,14
+CADUSD,spot,Bwd (CV),surp_consconfid,0,14
+CADUSD,spot,Bwd (CV),surp_avghourlyearnings,0,14
+CADUSD,spot,Bwd (CV),surp_cpi,0,14
+CADUSD,spot,Bwd (CV),surp_tradebal,0,14
+CADUSD,spot,Bwd (CV),surp_indprod,0,14
+CADUSD,spot,Bwd (CV),surp_fedratedec,0,14
+CADUSD,spot,Lasso,surp_nfp,0,14
+CADUSD,spot,Lasso,surp_unemp,0,14
+CADUSD,spot,Lasso,surp_corecpi,0,14
+CADUSD,spot,Lasso,surp_gdp,0,14
+CADUSD,spot,Lasso,surp_retsales,0,14
+CADUSD,spot,Lasso,surp_ism_pmi,0,14
+CADUSD,spot,Lasso,surp_dgorders,0,14
+CADUSD,spot,Lasso,surp_newhomesales,0,14
+CADUSD,spot,Lasso,surp_consconfid,0,14
+CADUSD,spot,Lasso,surp_avghourlyearnings,0,14
+CADUSD,spot,Lasso,surp_cpi,0,14
+CADUSD,spot,Lasso,surp_tradebal,0,14
+CADUSD,spot,Lasso,surp_indprod,0,14
+CADUSD,spot,Lasso,surp_fedratedec,0,14
+CADUSD,spot,Ridge,surp_nfp,0,14
+CADUSD,spot,Ridge,surp_unemp,0,14
+CADUSD,spot,Ridge,surp_corecpi,0,14
+CADUSD,spot,Ridge,surp_gdp,0,14
+CADUSD,spot,Ridge,surp_retsales,0,14
+CADUSD,spot,Ridge,surp_ism_pmi,0,14
+CADUSD,spot,Ridge,surp_dgorders,0,14
+CADUSD,spot,Ridge,surp_newhomesales,0,14
+CADUSD,spot,Ridge,surp_consconfid,0,14
+CADUSD,spot,Ridge,surp_avghourlyearnings,0,14
+CADUSD,spot,Ridge,surp_cpi,0,14
+CADUSD,spot,Ridge,surp_tradebal,0,14
+CADUSD,spot,Ridge,surp_indprod,0,14
+CADUSD,spot,Ridge,surp_fedratedec,0,14
+CADUSD,spot,LGB,surp_nfp,14,14
+CADUSD,spot,LGB,surp_unemp,13,14
+CADUSD,spot,LGB,surp_corecpi,12,14
+CADUSD,spot,LGB,surp_gdp,11,14
+CADUSD,spot,LGB,surp_retsales,10,14
+CADUSD,spot,LGB,surp_ism_pmi,9,14
+CADUSD,spot,LGB,surp_dgorders,8,14
+CADUSD,spot,LGB,surp_newhomesales,7,14
+CADUSD,spot,LGB,surp_consconfid,6,14
+CADUSD,spot,LGB,surp_avghourlyearnings,5,14
+CADUSD,spot,LGB,surp_cpi,4,14
+CADUSD,spot,LGB,surp_tradebal,3,14
+CADUSD,spot,LGB,surp_indprod,2,14
+CADUSD,spot,LGB,surp_fedratedec,1,14
+CADUSD,spot,RF,surp_nfp,12,14
+CADUSD,spot,RF,surp_unemp,3,14
+CADUSD,spot,RF,surp_corecpi,13,14
+CADUSD,spot,RF,surp_gdp,2,14
+CADUSD,spot,RF,surp_retsales,5,14
+CADUSD,spot,RF,surp_ism_pmi,11,14
+CADUSD,spot,RF,surp_dgorders,14,14
+CADUSD,spot,RF,surp_newhomesales,8,14
+CADUSD,spot,RF,surp_consconfid,9,14
+CADUSD,spot,RF,surp_avghourlyearnings,7,14
+CADUSD,spot,RF,surp_cpi,6,14
+CADUSD,spot,RF,surp_tradebal,10,14
+CADUSD,spot,RF,surp_indprod,4,14
+CADUSD,spot,RF,surp_fedratedec,1,14
+GBPUSD,spot,Fwd (Cp),surp_nfp,7,14
+GBPUSD,spot,Fwd (Cp),surp_unemp,11,14
+GBPUSD,spot,Fwd (Cp),surp_corecpi,12,14
+GBPUSD,spot,Fwd (Cp),surp_gdp,14,14
+GBPUSD,spot,Fwd (Cp),surp_retsales,8,14
+GBPUSD,spot,Fwd (Cp),surp_ism_pmi,0,14
+GBPUSD,spot,Fwd (Cp),surp_dgorders,10,14
+GBPUSD,spot,Fwd (Cp),surp_newhomesales,0,14
+GBPUSD,spot,Fwd (Cp),surp_consconfid,9,14
+GBPUSD,spot,Fwd (Cp),surp_avghourlyearnings,13,14
+GBPUSD,spot,Fwd (Cp),surp_cpi,0,14
+GBPUSD,spot,Fwd (Cp),surp_tradebal,0,14
+GBPUSD,spot,Fwd (Cp),surp_indprod,0,14
+GBPUSD,spot,Fwd (Cp),surp_fedratedec,0,14
+GBPUSD,spot,Fwd (CV),surp_nfp,0,14
+GBPUSD,spot,Fwd (CV),surp_unemp,0,14
+GBPUSD,spot,Fwd (CV),surp_corecpi,0,14
+GBPUSD,spot,Fwd (CV),surp_gdp,0,14
+GBPUSD,spot,Fwd (CV),surp_retsales,0,14
+GBPUSD,spot,Fwd (CV),surp_ism_pmi,0,14
+GBPUSD,spot,Fwd (CV),surp_dgorders,0,14
+GBPUSD,spot,Fwd (CV),surp_newhomesales,0,14
+GBPUSD,spot,Fwd (CV),surp_consconfid,0,14
+GBPUSD,spot,Fwd (CV),surp_avghourlyearnings,0,14
+GBPUSD,spot,Fwd (CV),surp_cpi,0,14
+GBPUSD,spot,Fwd (CV),surp_tradebal,0,14
+GBPUSD,spot,Fwd (CV),surp_indprod,0,14
+GBPUSD,spot,Fwd (CV),surp_fedratedec,0,14
+GBPUSD,spot,Bwd (Cp),surp_nfp,6,14
+GBPUSD,spot,Bwd (Cp),surp_unemp,10,14
+GBPUSD,spot,Bwd (Cp),surp_corecpi,11,14
+GBPUSD,spot,Bwd (Cp),surp_gdp,13,14
+GBPUSD,spot,Bwd (Cp),surp_retsales,9,14
+GBPUSD,spot,Bwd (Cp),surp_ism_pmi,0,14
+GBPUSD,spot,Bwd (Cp),surp_dgorders,8,14
+GBPUSD,spot,Bwd (Cp),surp_newhomesales,0,14
+GBPUSD,spot,Bwd (Cp),surp_consconfid,7,14
+GBPUSD,spot,Bwd (Cp),surp_avghourlyearnings,12,14
+GBPUSD,spot,Bwd (Cp),surp_cpi,0,14
+GBPUSD,spot,Bwd (Cp),surp_tradebal,0,14
+GBPUSD,spot,Bwd (Cp),surp_indprod,0,14
+GBPUSD,spot,Bwd (Cp),surp_fedratedec,14,14
+GBPUSD,spot,Bwd (CV),surp_nfp,0,14
+GBPUSD,spot,Bwd (CV),surp_unemp,0,14
+GBPUSD,spot,Bwd (CV),surp_corecpi,0,14
+GBPUSD,spot,Bwd (CV),surp_gdp,0,14
+GBPUSD,spot,Bwd (CV),surp_retsales,0,14
+GBPUSD,spot,Bwd (CV),surp_ism_pmi,0,14
+GBPUSD,spot,Bwd (CV),surp_dgorders,0,14
+GBPUSD,spot,Bwd (CV),surp_newhomesales,0,14
+GBPUSD,spot,Bwd (CV),surp_consconfid,0,14
+GBPUSD,spot,Bwd (CV),surp_avghourlyearnings,0,14
+GBPUSD,spot,Bwd (CV),surp_cpi,0,14
+GBPUSD,spot,Bwd (CV),surp_tradebal,0,14
+GBPUSD,spot,Bwd (CV),surp_indprod,0,14
+GBPUSD,spot,Bwd (CV),surp_fedratedec,0,14
+GBPUSD,spot,Lasso,surp_nfp,0,14
+GBPUSD,spot,Lasso,surp_unemp,0,14
+GBPUSD,spot,Lasso,surp_corecpi,0,14
+GBPUSD,spot,Lasso,surp_gdp,0,14
+GBPUSD,spot,Lasso,surp_retsales,0,14
+GBPUSD,spot,Lasso,surp_ism_pmi,0,14
+GBPUSD,spot,Lasso,surp_dgorders,0,14
+GBPUSD,spot,Lasso,surp_newhomesales,0,14
+GBPUSD,spot,Lasso,surp_consconfid,0,14
+GBPUSD,spot,Lasso,surp_avghourlyearnings,0,14
+GBPUSD,spot,Lasso,surp_cpi,0,14
+GBPUSD,spot,Lasso,surp_tradebal,0,14
+GBPUSD,spot,Lasso,surp_indprod,0,14
+GBPUSD,spot,Lasso,surp_fedratedec,0,14
+GBPUSD,spot,Ridge,surp_nfp,0,14
+GBPUSD,spot,Ridge,surp_unemp,0,14
+GBPUSD,spot,Ridge,surp_corecpi,0,14
+GBPUSD,spot,Ridge,surp_gdp,0,14
+GBPUSD,spot,Ridge,surp_retsales,0,14
+GBPUSD,spot,Ridge,surp_ism_pmi,0,14
+GBPUSD,spot,Ridge,surp_dgorders,0,14
+GBPUSD,spot,Ridge,surp_newhomesales,0,14
+GBPUSD,spot,Ridge,surp_consconfid,0,14
+GBPUSD,spot,Ridge,surp_avghourlyearnings,0,14
+GBPUSD,spot,Ridge,surp_cpi,0,14
+GBPUSD,spot,Ridge,surp_tradebal,0,14
+GBPUSD,spot,Ridge,surp_indprod,0,14
+GBPUSD,spot,Ridge,surp_fedratedec,0,14
+GBPUSD,spot,LGB,surp_nfp,14,14
+GBPUSD,spot,LGB,surp_unemp,13,14
+GBPUSD,spot,LGB,surp_corecpi,12,14
+GBPUSD,spot,LGB,surp_gdp,11,14
+GBPUSD,spot,LGB,surp_retsales,10,14
+GBPUSD,spot,LGB,surp_ism_pmi,9,14
+GBPUSD,spot,LGB,surp_dgorders,8,14
+GBPUSD,spot,LGB,surp_newhomesales,7,14
+GBPUSD,spot,LGB,surp_consconfid,6,14
+GBPUSD,spot,LGB,surp_avghourlyearnings,5,14
+GBPUSD,spot,LGB,surp_cpi,4,14
+GBPUSD,spot,LGB,surp_tradebal,3,14
+GBPUSD,spot,LGB,surp_indprod,2,14
+GBPUSD,spot,LGB,surp_fedratedec,1,14
+GBPUSD,spot,RF,surp_nfp,12,14
+GBPUSD,spot,RF,surp_unemp,6,14
+GBPUSD,spot,RF,surp_corecpi,3,14
+GBPUSD,spot,RF,surp_gdp,2,14
+GBPUSD,spot,RF,surp_retsales,13,14
+GBPUSD,spot,RF,surp_ism_pmi,9,14
+GBPUSD,spot,RF,surp_dgorders,8,14
+GBPUSD,spot,RF,surp_newhomesales,11,14
+GBPUSD,spot,RF,surp_consconfid,14,14
+GBPUSD,spot,RF,surp_avghourlyearnings,5,14
+GBPUSD,spot,RF,surp_cpi,4,14
+GBPUSD,spot,RF,surp_tradebal,10,14
+GBPUSD,spot,RF,surp_indprod,7,14
+GBPUSD,spot,RF,surp_fedratedec,1,14
+GSPC,spot,Fwd (Cp),surp_nfp,0,14
+GSPC,spot,Fwd (Cp),surp_unemp,0,14
+GSPC,spot,Fwd (Cp),surp_corecpi,13,14
+GSPC,spot,Fwd (Cp),surp_gdp,0,14
+GSPC,spot,Fwd (Cp),surp_retsales,0,14
+GSPC,spot,Fwd (Cp),surp_ism_pmi,0,14
+GSPC,spot,Fwd (Cp),surp_dgorders,0,14
+GSPC,spot,Fwd (Cp),surp_newhomesales,14,14
+GSPC,spot,Fwd (Cp),surp_consconfid,12,14
+GSPC,spot,Fwd (Cp),surp_avghourlyearnings,0,14
+GSPC,spot,Fwd (Cp),surp_cpi,0,14
+GSPC,spot,Fwd (Cp),surp_tradebal,11,14
+GSPC,spot,Fwd (Cp),surp_indprod,0,14
+GSPC,spot,Fwd (Cp),surp_fedratedec,0,14
+GSPC,spot,Fwd (CV),surp_nfp,0,14
+GSPC,spot,Fwd (CV),surp_unemp,0,14
+GSPC,spot,Fwd (CV),surp_corecpi,0,14
+GSPC,spot,Fwd (CV),surp_gdp,0,14
+GSPC,spot,Fwd (CV),surp_retsales,0,14
+GSPC,spot,Fwd (CV),surp_ism_pmi,0,14
+GSPC,spot,Fwd (CV),surp_dgorders,0,14
+GSPC,spot,Fwd (CV),surp_newhomesales,0,14
+GSPC,spot,Fwd (CV),surp_consconfid,0,14
+GSPC,spot,Fwd (CV),surp_avghourlyearnings,0,14
+GSPC,spot,Fwd (CV),surp_cpi,0,14
+GSPC,spot,Fwd (CV),surp_tradebal,0,14
+GSPC,spot,Fwd (CV),surp_indprod,0,14
+GSPC,spot,Fwd (CV),surp_fedratedec,0,14
+GSPC,spot,Bwd (Cp),surp_nfp,0,14
+GSPC,spot,Bwd (Cp),surp_unemp,0,14
+GSPC,spot,Bwd (Cp),surp_corecpi,13,14
+GSPC,spot,Bwd (Cp),surp_gdp,0,14
+GSPC,spot,Bwd (Cp),surp_retsales,0,14
+GSPC,spot,Bwd (Cp),surp_ism_pmi,0,14
+GSPC,spot,Bwd (Cp),surp_dgorders,0,14
+GSPC,spot,Bwd (Cp),surp_newhomesales,14,14
+GSPC,spot,Bwd (Cp),surp_consconfid,12,14
+GSPC,spot,Bwd (Cp),surp_avghourlyearnings,0,14
+GSPC,spot,Bwd (Cp),surp_cpi,0,14
+GSPC,spot,Bwd (Cp),surp_tradebal,11,14
+GSPC,spot,Bwd (Cp),surp_indprod,0,14
+GSPC,spot,Bwd (Cp),surp_fedratedec,0,14
+GSPC,spot,Bwd (CV),surp_nfp,0,14
+GSPC,spot,Bwd (CV),surp_unemp,0,14
+GSPC,spot,Bwd (CV),surp_corecpi,0,14
+GSPC,spot,Bwd (CV),surp_gdp,0,14
+GSPC,spot,Bwd (CV),surp_retsales,0,14
+GSPC,spot,Bwd (CV),surp_ism_pmi,0,14
+GSPC,spot,Bwd (CV),surp_dgorders,0,14
+GSPC,spot,Bwd (CV),surp_newhomesales,0,14
+GSPC,spot,Bwd (CV),surp_consconfid,0,14
+GSPC,spot,Bwd (CV),surp_avghourlyearnings,0,14
+GSPC,spot,Bwd (CV),surp_cpi,0,14
+GSPC,spot,Bwd (CV),surp_tradebal,0,14
+GSPC,spot,Bwd (CV),surp_indprod,0,14
+GSPC,spot,Bwd (CV),surp_fedratedec,0,14
+GSPC,spot,Lasso,surp_nfp,0,14
+GSPC,spot,Lasso,surp_unemp,0,14
+GSPC,spot,Lasso,surp_corecpi,0,14
+GSPC,spot,Lasso,surp_gdp,0,14
+GSPC,spot,Lasso,surp_retsales,0,14
+GSPC,spot,Lasso,surp_ism_pmi,0,14
+GSPC,spot,Lasso,surp_dgorders,0,14
+GSPC,spot,Lasso,surp_newhomesales,0,14
+GSPC,spot,Lasso,surp_consconfid,0,14
+GSPC,spot,Lasso,surp_avghourlyearnings,0,14
+GSPC,spot,Lasso,surp_cpi,0,14
+GSPC,spot,Lasso,surp_tradebal,0,14
+GSPC,spot,Lasso,surp_indprod,0,14
+GSPC,spot,Lasso,surp_fedratedec,0,14
+GSPC,spot,Ridge,surp_nfp,0,14
+GSPC,spot,Ridge,surp_unemp,0,14
+GSPC,spot,Ridge,surp_corecpi,0,14
+GSPC,spot,Ridge,surp_gdp,0,14
+GSPC,spot,Ridge,surp_retsales,0,14
+GSPC,spot,Ridge,surp_ism_pmi,0,14
+GSPC,spot,Ridge,surp_dgorders,0,14
+GSPC,spot,Ridge,surp_newhomesales,0,14
+GSPC,spot,Ridge,surp_consconfid,0,14
+GSPC,spot,Ridge,surp_avghourlyearnings,0,14
+GSPC,spot,Ridge,surp_cpi,0,14
+GSPC,spot,Ridge,surp_tradebal,0,14
+GSPC,spot,Ridge,surp_indprod,0,14
+GSPC,spot,Ridge,surp_fedratedec,0,14
+GSPC,spot,LGB,surp_nfp,14,14
+GSPC,spot,LGB,surp_unemp,13,14
+GSPC,spot,LGB,surp_corecpi,12,14
+GSPC,spot,LGB,surp_gdp,11,14
+GSPC,spot,LGB,surp_retsales,10,14
+GSPC,spot,LGB,surp_ism_pmi,9,14
+GSPC,spot,LGB,surp_dgorders,8,14
+GSPC,spot,LGB,surp_newhomesales,7,14
+GSPC,spot,LGB,surp_consconfid,6,14
+GSPC,spot,LGB,surp_avghourlyearnings,5,14
+GSPC,spot,LGB,surp_cpi,4,14
+GSPC,spot,LGB,surp_tradebal,3,14
+GSPC,spot,LGB,surp_indprod,2,14
+GSPC,spot,LGB,surp_fedratedec,1,14
+GSPC,spot,RF,surp_nfp,10,14
+GSPC,spot,RF,surp_unemp,6,14
+GSPC,spot,RF,surp_corecpi,3,14
+GSPC,spot,RF,surp_gdp,2,14
+GSPC,spot,RF,surp_retsales,9,14
+GSPC,spot,RF,surp_ism_pmi,8,14
+GSPC,spot,RF,surp_dgorders,13,14
+GSPC,spot,RF,surp_newhomesales,11,14
+GSPC,spot,RF,surp_consconfid,12,14
+GSPC,spot,RF,surp_avghourlyearnings,5,14
+GSPC,spot,RF,surp_cpi,4,14
+GSPC,spot,RF,surp_tradebal,14,14
+GSPC,spot,RF,surp_indprod,7,14
+GSPC,spot,RF,surp_fedratedec,1,14
+RUT,spot,Fwd (Cp),surp_nfp,0,14
+RUT,spot,Fwd (Cp),surp_unemp,0,14
+RUT,spot,Fwd (Cp),surp_corecpi,12,14
+RUT,spot,Fwd (Cp),surp_gdp,0,14
+RUT,spot,Fwd (Cp),surp_retsales,7,14
+RUT,spot,Fwd (Cp),surp_ism_pmi,10,14
+RUT,spot,Fwd (Cp),surp_dgorders,8,14
+RUT,spot,Fwd (Cp),surp_newhomesales,14,14
+RUT,spot,Fwd (Cp),surp_consconfid,11,14
+RUT,spot,Fwd (Cp),surp_avghourlyearnings,0,14
+RUT,spot,Fwd (Cp),surp_cpi,0,14
+RUT,spot,Fwd (Cp),surp_tradebal,13,14
+RUT,spot,Fwd (Cp),surp_indprod,9,14
+RUT,spot,Fwd (Cp),surp_fedratedec,0,14
+RUT,spot,Fwd (CV),surp_nfp,0,14
+RUT,spot,Fwd (CV),surp_unemp,0,14
+RUT,spot,Fwd (CV),surp_corecpi,0,14
+RUT,spot,Fwd (CV),surp_gdp,0,14
+RUT,spot,Fwd (CV),surp_retsales,0,14
+RUT,spot,Fwd (CV),surp_ism_pmi,0,14
+RUT,spot,Fwd (CV),surp_dgorders,0,14
+RUT,spot,Fwd (CV),surp_newhomesales,0,14
+RUT,spot,Fwd (CV),surp_consconfid,0,14
+RUT,spot,Fwd (CV),surp_avghourlyearnings,0,14
+RUT,spot,Fwd (CV),surp_cpi,0,14
+RUT,spot,Fwd (CV),surp_tradebal,0,14
+RUT,spot,Fwd (CV),surp_indprod,0,14
+RUT,spot,Fwd (CV),surp_fedratedec,0,14
+RUT,spot,Bwd (Cp),surp_nfp,0,14
+RUT,spot,Bwd (Cp),surp_unemp,0,14
+RUT,spot,Bwd (Cp),surp_corecpi,12,14
+RUT,spot,Bwd (Cp),surp_gdp,0,14
+RUT,spot,Bwd (Cp),surp_retsales,8,14
+RUT,spot,Bwd (Cp),surp_ism_pmi,10,14
+RUT,spot,Bwd (Cp),surp_dgorders,0,14
+RUT,spot,Bwd (Cp),surp_newhomesales,14,14
+RUT,spot,Bwd (Cp),surp_consconfid,11,14
+RUT,spot,Bwd (Cp),surp_avghourlyearnings,0,14
+RUT,spot,Bwd (Cp),surp_cpi,0,14
+RUT,spot,Bwd (Cp),surp_tradebal,13,14
+RUT,spot,Bwd (Cp),surp_indprod,9,14
+RUT,spot,Bwd (Cp),surp_fedratedec,0,14
+RUT,spot,Bwd (CV),surp_nfp,0,14
+RUT,spot,Bwd (CV),surp_unemp,0,14
+RUT,spot,Bwd (CV),surp_corecpi,0,14
+RUT,spot,Bwd (CV),surp_gdp,0,14
+RUT,spot,Bwd (CV),surp_retsales,0,14
+RUT,spot,Bwd (CV),surp_ism_pmi,0,14
+RUT,spot,Bwd (CV),surp_dgorders,0,14
+RUT,spot,Bwd (CV),surp_newhomesales,0,14
+RUT,spot,Bwd (CV),surp_consconfid,0,14
+RUT,spot,Bwd (CV),surp_avghourlyearnings,0,14
+RUT,spot,Bwd (CV),surp_cpi,0,14
+RUT,spot,Bwd (CV),surp_tradebal,0,14
+RUT,spot,Bwd (CV),surp_indprod,0,14
+RUT,spot,Bwd (CV),surp_fedratedec,0,14
+RUT,spot,Lasso,surp_nfp,0,14
+RUT,spot,Lasso,surp_unemp,0,14
+RUT,spot,Lasso,surp_corecpi,0,14
+RUT,spot,Lasso,surp_gdp,0,14
+RUT,spot,Lasso,surp_retsales,0,14
+RUT,spot,Lasso,surp_ism_pmi,0,14
+RUT,spot,Lasso,surp_dgorders,0,14
+RUT,spot,Lasso,surp_newhomesales,0,14
+RUT,spot,Lasso,surp_consconfid,0,14
+RUT,spot,Lasso,surp_avghourlyearnings,0,14
+RUT,spot,Lasso,surp_cpi,0,14
+RUT,spot,Lasso,surp_tradebal,0,14
+RUT,spot,Lasso,surp_indprod,0,14
+RUT,spot,Lasso,surp_fedratedec,0,14
+RUT,spot,Ridge,surp_nfp,0,14
+RUT,spot,Ridge,surp_unemp,0,14
+RUT,spot,Ridge,surp_corecpi,0,14
+RUT,spot,Ridge,surp_gdp,0,14
+RUT,spot,Ridge,surp_retsales,0,14
+RUT,spot,Ridge,surp_ism_pmi,0,14
+RUT,spot,Ridge,surp_dgorders,0,14
+RUT,spot,Ridge,surp_newhomesales,0,14
+RUT,spot,Ridge,surp_consconfid,0,14
+RUT,spot,Ridge,surp_avghourlyearnings,0,14
+RUT,spot,Ridge,surp_cpi,0,14
+RUT,spot,Ridge,surp_tradebal,0,14
+RUT,spot,Ridge,surp_indprod,0,14
+RUT,spot,Ridge,surp_fedratedec,0,14
+RUT,spot,LGB,surp_nfp,14,14
+RUT,spot,LGB,surp_unemp,13,14
+RUT,spot,LGB,surp_corecpi,12,14
+RUT,spot,LGB,surp_gdp,11,14
+RUT,spot,LGB,surp_retsales,10,14
+RUT,spot,LGB,surp_ism_pmi,9,14
+RUT,spot,LGB,surp_dgorders,8,14
+RUT,spot,LGB,surp_newhomesales,7,14
+RUT,spot,LGB,surp_consconfid,6,14
+RUT,spot,LGB,surp_avghourlyearnings,5,14
+RUT,spot,LGB,surp_cpi,4,14
+RUT,spot,LGB,surp_tradebal,3,14
+RUT,spot,LGB,surp_indprod,2,14
+RUT,spot,LGB,surp_fedratedec,1,14
+RUT,spot,RF,surp_nfp,10,14
+RUT,spot,RF,surp_unemp,6,14
+RUT,spot,RF,surp_corecpi,3,14
+RUT,spot,RF,surp_gdp,2,14
+RUT,spot,RF,surp_retsales,8,14
+RUT,spot,RF,surp_ism_pmi,11,14
+RUT,spot,RF,surp_dgorders,13,14
+RUT,spot,RF,surp_newhomesales,9,14
+RUT,spot,RF,surp_consconfid,12,14
+RUT,spot,RF,surp_avghourlyearnings,5,14
+RUT,spot,RF,surp_cpi,4,14
+RUT,spot,RF,surp_tradebal,14,14
+RUT,spot,RF,surp_indprod,7,14
+RUT,spot,RF,surp_fedratedec,1,14
+XLE,spot,Fwd (Cp),surp_nfp,0,14
+XLE,spot,Fwd (Cp),surp_unemp,0,14
+XLE,spot,Fwd (Cp),surp_corecpi,13,14
+XLE,spot,Fwd (Cp),surp_gdp,0,14
+XLE,spot,Fwd (Cp),surp_retsales,9,14
+XLE,spot,Fwd (Cp),surp_ism_pmi,0,14
+XLE,spot,Fwd (Cp),surp_dgorders,0,14
+XLE,spot,Fwd (Cp),surp_newhomesales,14,14
+XLE,spot,Fwd (Cp),surp_consconfid,11,14
+XLE,spot,Fwd (Cp),surp_avghourlyearnings,0,14
+XLE,spot,Fwd (Cp),surp_cpi,0,14
+XLE,spot,Fwd (Cp),surp_tradebal,12,14
+XLE,spot,Fwd (Cp),surp_indprod,8,14
+XLE,spot,Fwd (Cp),surp_fedratedec,10,14
+XLE,spot,Fwd (CV),surp_nfp,0,14
+XLE,spot,Fwd (CV),surp_unemp,0,14
+XLE,spot,Fwd (CV),surp_corecpi,0,14
+XLE,spot,Fwd (CV),surp_gdp,0,14
+XLE,spot,Fwd (CV),surp_retsales,0,14
+XLE,spot,Fwd (CV),surp_ism_pmi,0,14
+XLE,spot,Fwd (CV),surp_dgorders,0,14
+XLE,spot,Fwd (CV),surp_newhomesales,0,14
+XLE,spot,Fwd (CV),surp_consconfid,0,14
+XLE,spot,Fwd (CV),surp_avghourlyearnings,0,14
+XLE,spot,Fwd (CV),surp_cpi,0,14
+XLE,spot,Fwd (CV),surp_tradebal,0,14
+XLE,spot,Fwd (CV),surp_indprod,0,14
+XLE,spot,Fwd (CV),surp_fedratedec,0,14
+XLE,spot,Bwd (Cp),surp_nfp,0,14
+XLE,spot,Bwd (Cp),surp_unemp,0,14
+XLE,spot,Bwd (Cp),surp_corecpi,13,14
+XLE,spot,Bwd (Cp),surp_gdp,0,14
+XLE,spot,Bwd (Cp),surp_retsales,9,14
+XLE,spot,Bwd (Cp),surp_ism_pmi,0,14
+XLE,spot,Bwd (Cp),surp_dgorders,0,14
+XLE,spot,Bwd (Cp),surp_newhomesales,14,14
+XLE,spot,Bwd (Cp),surp_consconfid,11,14
+XLE,spot,Bwd (Cp),surp_avghourlyearnings,0,14
+XLE,spot,Bwd (Cp),surp_cpi,0,14
+XLE,spot,Bwd (Cp),surp_tradebal,12,14
+XLE,spot,Bwd (Cp),surp_indprod,8,14
+XLE,spot,Bwd (Cp),surp_fedratedec,10,14
+XLE,spot,Bwd (CV),surp_nfp,0,14
+XLE,spot,Bwd (CV),surp_unemp,0,14
+XLE,spot,Bwd (CV),surp_corecpi,0,14
+XLE,spot,Bwd (CV),surp_gdp,0,14
+XLE,spot,Bwd (CV),surp_retsales,0,14
+XLE,spot,Bwd (CV),surp_ism_pmi,0,14
+XLE,spot,Bwd (CV),surp_dgorders,0,14
+XLE,spot,Bwd (CV),surp_newhomesales,0,14
+XLE,spot,Bwd (CV),surp_consconfid,0,14
+XLE,spot,Bwd (CV),surp_avghourlyearnings,0,14
+XLE,spot,Bwd (CV),surp_cpi,0,14
+XLE,spot,Bwd (CV),surp_tradebal,0,14
+XLE,spot,Bwd (CV),surp_indprod,0,14
+XLE,spot,Bwd (CV),surp_fedratedec,0,14
+XLE,spot,Lasso,surp_nfp,0,14
+XLE,spot,Lasso,surp_unemp,0,14
+XLE,spot,Lasso,surp_corecpi,0,14
+XLE,spot,Lasso,surp_gdp,0,14
+XLE,spot,Lasso,surp_retsales,0,14
+XLE,spot,Lasso,surp_ism_pmi,0,14
+XLE,spot,Lasso,surp_dgorders,0,14
+XLE,spot,Lasso,surp_newhomesales,0,14
+XLE,spot,Lasso,surp_consconfid,0,14
+XLE,spot,Lasso,surp_avghourlyearnings,0,14
+XLE,spot,Lasso,surp_cpi,0,14
+XLE,spot,Lasso,surp_tradebal,0,14
+XLE,spot,Lasso,surp_indprod,0,14
+XLE,spot,Lasso,surp_fedratedec,0,14
+XLE,spot,Ridge,surp_nfp,0,14
+XLE,spot,Ridge,surp_unemp,0,14
+XLE,spot,Ridge,surp_corecpi,0,14
+XLE,spot,Ridge,surp_gdp,0,14
+XLE,spot,Ridge,surp_retsales,0,14
+XLE,spot,Ridge,surp_ism_pmi,0,14
+XLE,spot,Ridge,surp_dgorders,0,14
+XLE,spot,Ridge,surp_newhomesales,0,14
+XLE,spot,Ridge,surp_consconfid,0,14
+XLE,spot,Ridge,surp_avghourlyearnings,0,14
+XLE,spot,Ridge,surp_cpi,0,14
+XLE,spot,Ridge,surp_tradebal,0,14
+XLE,spot,Ridge,surp_indprod,0,14
+XLE,spot,Ridge,surp_fedratedec,0,14
+XLE,spot,LGB,surp_nfp,14,14
+XLE,spot,LGB,surp_unemp,13,14
+XLE,spot,LGB,surp_corecpi,12,14
+XLE,spot,LGB,surp_gdp,11,14
+XLE,spot,LGB,surp_retsales,10,14
+XLE,spot,LGB,surp_ism_pmi,9,14
+XLE,spot,LGB,surp_dgorders,8,14
+XLE,spot,LGB,surp_newhomesales,7,14
+XLE,spot,LGB,surp_consconfid,6,14
+XLE,spot,LGB,surp_avghourlyearnings,5,14
+XLE,spot,LGB,surp_cpi,4,14
+XLE,spot,LGB,surp_tradebal,3,14
+XLE,spot,LGB,surp_indprod,2,14
+XLE,spot,LGB,surp_fedratedec,1,14
+XLE,spot,RF,surp_nfp,14,14
+XLE,spot,RF,surp_unemp,13,14
+XLE,spot,RF,surp_corecpi,12,14
+XLE,spot,RF,surp_gdp,11,14
+XLE,spot,RF,surp_retsales,10,14
+XLE,spot,RF,surp_ism_pmi,9,14
+XLE,spot,RF,surp_dgorders,8,14
+XLE,spot,RF,surp_newhomesales,7,14
+XLE,spot,RF,surp_consconfid,6,14
+XLE,spot,RF,surp_avghourlyearnings,5,14
+XLE,spot,RF,surp_cpi,4,14
+XLE,spot,RF,surp_tradebal,3,14
+XLE,spot,RF,surp_indprod,2,14
+XLE,spot,RF,surp_fedratedec,1,14
+XLF,spot,Fwd (Cp),surp_nfp,10,14
+XLF,spot,Fwd (Cp),surp_unemp,0,14
+XLF,spot,Fwd (Cp),surp_corecpi,13,14
+XLF,spot,Fwd (Cp),surp_gdp,0,14
+XLF,spot,Fwd (Cp),surp_retsales,0,14
+XLF,spot,Fwd (Cp),surp_ism_pmi,0,14
+XLF,spot,Fwd (Cp),surp_dgorders,0,14
+XLF,spot,Fwd (Cp),surp_newhomesales,14,14
+XLF,spot,Fwd (Cp),surp_consconfid,12,14
+XLF,spot,Fwd (Cp),surp_avghourlyearnings,0,14
+XLF,spot,Fwd (Cp),surp_cpi,0,14
+XLF,spot,Fwd (Cp),surp_tradebal,11,14
+XLF,spot,Fwd (Cp),surp_indprod,0,14
+XLF,spot,Fwd (Cp),surp_fedratedec,0,14
+XLF,spot,Fwd (CV),surp_nfp,0,14
+XLF,spot,Fwd (CV),surp_unemp,0,14
+XLF,spot,Fwd (CV),surp_corecpi,0,14
+XLF,spot,Fwd (CV),surp_gdp,0,14
+XLF,spot,Fwd (CV),surp_retsales,0,14
+XLF,spot,Fwd (CV),surp_ism_pmi,0,14
+XLF,spot,Fwd (CV),surp_dgorders,0,14
+XLF,spot,Fwd (CV),surp_newhomesales,0,14
+XLF,spot,Fwd (CV),surp_consconfid,0,14
+XLF,spot,Fwd (CV),surp_avghourlyearnings,0,14
+XLF,spot,Fwd (CV),surp_cpi,0,14
+XLF,spot,Fwd (CV),surp_tradebal,0,14
+XLF,spot,Fwd (CV),surp_indprod,0,14
+XLF,spot,Fwd (CV),surp_fedratedec,0,14
+XLF,spot,Bwd (Cp),surp_nfp,10,14
+XLF,spot,Bwd (Cp),surp_unemp,0,14
+XLF,spot,Bwd (Cp),surp_corecpi,13,14
+XLF,spot,Bwd (Cp),surp_gdp,0,14
+XLF,spot,Bwd (Cp),surp_retsales,0,14
+XLF,spot,Bwd (Cp),surp_ism_pmi,0,14
+XLF,spot,Bwd (Cp),surp_dgorders,0,14
+XLF,spot,Bwd (Cp),surp_newhomesales,14,14
+XLF,spot,Bwd (Cp),surp_consconfid,12,14
+XLF,spot,Bwd (Cp),surp_avghourlyearnings,0,14
+XLF,spot,Bwd (Cp),surp_cpi,0,14
+XLF,spot,Bwd (Cp),surp_tradebal,11,14
+XLF,spot,Bwd (Cp),surp_indprod,0,14
+XLF,spot,Bwd (Cp),surp_fedratedec,0,14
+XLF,spot,Bwd (CV),surp_nfp,0,14
+XLF,spot,Bwd (CV),surp_unemp,0,14
+XLF,spot,Bwd (CV),surp_corecpi,0,14
+XLF,spot,Bwd (CV),surp_gdp,0,14
+XLF,spot,Bwd (CV),surp_retsales,0,14
+XLF,spot,Bwd (CV),surp_ism_pmi,0,14
+XLF,spot,Bwd (CV),surp_dgorders,0,14
+XLF,spot,Bwd (CV),surp_newhomesales,0,14
+XLF,spot,Bwd (CV),surp_consconfid,0,14
+XLF,spot,Bwd (CV),surp_avghourlyearnings,0,14
+XLF,spot,Bwd (CV),surp_cpi,0,14
+XLF,spot,Bwd (CV),surp_tradebal,0,14
+XLF,spot,Bwd (CV),surp_indprod,0,14
+XLF,spot,Bwd (CV),surp_fedratedec,0,14
+XLF,spot,Lasso,surp_nfp,0,14
+XLF,spot,Lasso,surp_unemp,0,14
+XLF,spot,Lasso,surp_corecpi,0,14
+XLF,spot,Lasso,surp_gdp,0,14
+XLF,spot,Lasso,surp_retsales,0,14
+XLF,spot,Lasso,surp_ism_pmi,0,14
+XLF,spot,Lasso,surp_dgorders,0,14
+XLF,spot,Lasso,surp_newhomesales,0,14
+XLF,spot,Lasso,surp_consconfid,0,14
+XLF,spot,Lasso,surp_avghourlyearnings,0,14
+XLF,spot,Lasso,surp_cpi,0,14
+XLF,spot,Lasso,surp_tradebal,0,14
+XLF,spot,Lasso,surp_indprod,0,14
+XLF,spot,Lasso,surp_fedratedec,0,14
+XLF,spot,Ridge,surp_nfp,0,14
+XLF,spot,Ridge,surp_unemp,0,14
+XLF,spot,Ridge,surp_corecpi,0,14
+XLF,spot,Ridge,surp_gdp,0,14
+XLF,spot,Ridge,surp_retsales,0,14
+XLF,spot,Ridge,surp_ism_pmi,0,14
+XLF,spot,Ridge,surp_dgorders,0,14
+XLF,spot,Ridge,surp_newhomesales,0,14
+XLF,spot,Ridge,surp_consconfid,0,14
+XLF,spot,Ridge,surp_avghourlyearnings,0,14
+XLF,spot,Ridge,surp_cpi,0,14
+XLF,spot,Ridge,surp_tradebal,0,14
+XLF,spot,Ridge,surp_indprod,0,14
+XLF,spot,Ridge,surp_fedratedec,0,14
+XLF,spot,LGB,surp_nfp,14,14
+XLF,spot,LGB,surp_unemp,13,14
+XLF,spot,LGB,surp_corecpi,12,14
+XLF,spot,LGB,surp_gdp,11,14
+XLF,spot,LGB,surp_retsales,10,14
+XLF,spot,LGB,surp_ism_pmi,9,14
+XLF,spot,LGB,surp_dgorders,8,14
+XLF,spot,LGB,surp_newhomesales,7,14
+XLF,spot,LGB,surp_consconfid,6,14
+XLF,spot,LGB,surp_avghourlyearnings,5,14
+XLF,spot,LGB,surp_cpi,4,14
+XLF,spot,LGB,surp_tradebal,3,14
+XLF,spot,LGB,surp_indprod,2,14
+XLF,spot,LGB,surp_fedratedec,1,14
+XLF,spot,RF,surp_nfp,9,14
+XLF,spot,RF,surp_unemp,5,14
+XLF,spot,RF,surp_corecpi,3,14
+XLF,spot,RF,surp_gdp,2,14
+XLF,spot,RF,surp_retsales,13,14
+XLF,spot,RF,surp_ism_pmi,7,14
+XLF,spot,RF,surp_dgorders,14,14
+XLF,spot,RF,surp_newhomesales,11,14
+XLF,spot,RF,surp_consconfid,12,14
+XLF,spot,RF,surp_avghourlyearnings,6,14
+XLF,spot,RF,surp_cpi,4,14
+XLF,spot,RF,surp_tradebal,10,14
+XLF,spot,RF,surp_indprod,8,14
+XLF,spot,RF,surp_fedratedec,1,14
+XLI,spot,Fwd (Cp),surp_nfp,0,14
+XLI,spot,Fwd (Cp),surp_unemp,0,14
+XLI,spot,Fwd (Cp),surp_corecpi,10,14
+XLI,spot,Fwd (Cp),surp_gdp,11,14
+XLI,spot,Fwd (Cp),surp_retsales,0,14
+XLI,spot,Fwd (Cp),surp_ism_pmi,9,14
+XLI,spot,Fwd (Cp),surp_dgorders,13,14
+XLI,spot,Fwd (Cp),surp_newhomesales,14,14
+XLI,spot,Fwd (Cp),surp_consconfid,12,14
+XLI,spot,Fwd (Cp),surp_avghourlyearnings,0,14
+XLI,spot,Fwd (Cp),surp_cpi,0,14
+XLI,spot,Fwd (Cp),surp_tradebal,8,14
+XLI,spot,Fwd (Cp),surp_indprod,0,14
+XLI,spot,Fwd (Cp),surp_fedratedec,0,14
+XLI,spot,Fwd (CV),surp_nfp,0,14
+XLI,spot,Fwd (CV),surp_unemp,0,14
+XLI,spot,Fwd (CV),surp_corecpi,0,14
+XLI,spot,Fwd (CV),surp_gdp,0,14
+XLI,spot,Fwd (CV),surp_retsales,0,14
+XLI,spot,Fwd (CV),surp_ism_pmi,0,14
+XLI,spot,Fwd (CV),surp_dgorders,0,14
+XLI,spot,Fwd (CV),surp_newhomesales,0,14
+XLI,spot,Fwd (CV),surp_consconfid,0,14
+XLI,spot,Fwd (CV),surp_avghourlyearnings,0,14
+XLI,spot,Fwd (CV),surp_cpi,0,14
+XLI,spot,Fwd (CV),surp_tradebal,0,14
+XLI,spot,Fwd (CV),surp_indprod,0,14
+XLI,spot,Fwd (CV),surp_fedratedec,0,14
+XLI,spot,Bwd (Cp),surp_nfp,0,14
+XLI,spot,Bwd (Cp),surp_unemp,0,14
+XLI,spot,Bwd (Cp),surp_corecpi,10,14
+XLI,spot,Bwd (Cp),surp_gdp,11,14
+XLI,spot,Bwd (Cp),surp_retsales,0,14
+XLI,spot,Bwd (Cp),surp_ism_pmi,9,14
+XLI,spot,Bwd (Cp),surp_dgorders,13,14
+XLI,spot,Bwd (Cp),surp_newhomesales,14,14
+XLI,spot,Bwd (Cp),surp_consconfid,12,14
+XLI,spot,Bwd (Cp),surp_avghourlyearnings,0,14
+XLI,spot,Bwd (Cp),surp_cpi,0,14
+XLI,spot,Bwd (Cp),surp_tradebal,8,14
+XLI,spot,Bwd (Cp),surp_indprod,0,14
+XLI,spot,Bwd (Cp),surp_fedratedec,0,14
+XLI,spot,Bwd (CV),surp_nfp,0,14
+XLI,spot,Bwd (CV),surp_unemp,0,14
+XLI,spot,Bwd (CV),surp_corecpi,0,14
+XLI,spot,Bwd (CV),surp_gdp,0,14
+XLI,spot,Bwd (CV),surp_retsales,0,14
+XLI,spot,Bwd (CV),surp_ism_pmi,0,14
+XLI,spot,Bwd (CV),surp_dgorders,0,14
+XLI,spot,Bwd (CV),surp_newhomesales,0,14
+XLI,spot,Bwd (CV),surp_consconfid,0,14
+XLI,spot,Bwd (CV),surp_avghourlyearnings,0,14
+XLI,spot,Bwd (CV),surp_cpi,0,14
+XLI,spot,Bwd (CV),surp_tradebal,0,14
+XLI,spot,Bwd (CV),surp_indprod,0,14
+XLI,spot,Bwd (CV),surp_fedratedec,0,14
+XLI,spot,Lasso,surp_nfp,0,14
+XLI,spot,Lasso,surp_unemp,0,14
+XLI,spot,Lasso,surp_corecpi,0,14
+XLI,spot,Lasso,surp_gdp,0,14
+XLI,spot,Lasso,surp_retsales,0,14
+XLI,spot,Lasso,surp_ism_pmi,0,14
+XLI,spot,Lasso,surp_dgorders,0,14
+XLI,spot,Lasso,surp_newhomesales,0,14
+XLI,spot,Lasso,surp_consconfid,0,14
+XLI,spot,Lasso,surp_avghourlyearnings,0,14
+XLI,spot,Lasso,surp_cpi,0,14
+XLI,spot,Lasso,surp_tradebal,0,14
+XLI,spot,Lasso,surp_indprod,0,14
+XLI,spot,Lasso,surp_fedratedec,0,14
+XLI,spot,Ridge,surp_nfp,0,14
+XLI,spot,Ridge,surp_unemp,0,14
+XLI,spot,Ridge,surp_corecpi,0,14
+XLI,spot,Ridge,surp_gdp,0,14
+XLI,spot,Ridge,surp_retsales,0,14
+XLI,spot,Ridge,surp_ism_pmi,0,14
+XLI,spot,Ridge,surp_dgorders,0,14
+XLI,spot,Ridge,surp_newhomesales,0,14
+XLI,spot,Ridge,surp_consconfid,0,14
+XLI,spot,Ridge,surp_avghourlyearnings,0,14
+XLI,spot,Ridge,surp_cpi,0,14
+XLI,spot,Ridge,surp_tradebal,0,14
+XLI,spot,Ridge,surp_indprod,0,14
+XLI,spot,Ridge,surp_fedratedec,0,14
+XLI,spot,LGB,surp_nfp,14,14
+XLI,spot,LGB,surp_unemp,13,14
+XLI,spot,LGB,surp_corecpi,12,14
+XLI,spot,LGB,surp_gdp,11,14
+XLI,spot,LGB,surp_retsales,10,14
+XLI,spot,LGB,surp_ism_pmi,9,14
+XLI,spot,LGB,surp_dgorders,8,14
+XLI,spot,LGB,surp_newhomesales,7,14
+XLI,spot,LGB,surp_consconfid,6,14
+XLI,spot,LGB,surp_avghourlyearnings,5,14
+XLI,spot,LGB,surp_cpi,4,14
+XLI,spot,LGB,surp_tradebal,3,14
+XLI,spot,LGB,surp_indprod,2,14
+XLI,spot,LGB,surp_fedratedec,1,14
+XLI,spot,RF,surp_nfp,14,14
+XLI,spot,RF,surp_unemp,13,14
+XLI,spot,RF,surp_corecpi,12,14
+XLI,spot,RF,surp_gdp,11,14
+XLI,spot,RF,surp_retsales,10,14
+XLI,spot,RF,surp_ism_pmi,9,14
+XLI,spot,RF,surp_dgorders,8,14
+XLI,spot,RF,surp_newhomesales,7,14
+XLI,spot,RF,surp_consconfid,6,14
+XLI,spot,RF,surp_avghourlyearnings,5,14
+XLI,spot,RF,surp_cpi,4,14
+XLI,spot,RF,surp_tradebal,3,14
+XLI,spot,RF,surp_indprod,2,14
+XLI,spot,RF,surp_fedratedec,1,14
+XLK,spot,Fwd (Cp),surp_nfp,0,14
+XLK,spot,Fwd (Cp),surp_unemp,0,14
+XLK,spot,Fwd (Cp),surp_corecpi,13,14
+XLK,spot,Fwd (Cp),surp_gdp,0,14
+XLK,spot,Fwd (Cp),surp_retsales,11,14
+XLK,spot,Fwd (Cp),surp_ism_pmi,0,14
+XLK,spot,Fwd (Cp),surp_dgorders,0,14
+XLK,spot,Fwd (Cp),surp_newhomesales,14,14
+XLK,spot,Fwd (Cp),surp_consconfid,10,14
+XLK,spot,Fwd (Cp),surp_avghourlyearnings,0,14
+XLK,spot,Fwd (Cp),surp_cpi,0,14
+XLK,spot,Fwd (Cp),surp_tradebal,12,14
+XLK,spot,Fwd (Cp),surp_indprod,0,14
+XLK,spot,Fwd (Cp),surp_fedratedec,0,14
+XLK,spot,Fwd (CV),surp_nfp,0,14
+XLK,spot,Fwd (CV),surp_unemp,0,14
+XLK,spot,Fwd (CV),surp_corecpi,0,14
+XLK,spot,Fwd (CV),surp_gdp,0,14
+XLK,spot,Fwd (CV),surp_retsales,0,14
+XLK,spot,Fwd (CV),surp_ism_pmi,0,14
+XLK,spot,Fwd (CV),surp_dgorders,0,14
+XLK,spot,Fwd (CV),surp_newhomesales,0,14
+XLK,spot,Fwd (CV),surp_consconfid,0,14
+XLK,spot,Fwd (CV),surp_avghourlyearnings,0,14
+XLK,spot,Fwd (CV),surp_cpi,0,14
+XLK,spot,Fwd (CV),surp_tradebal,0,14
+XLK,spot,Fwd (CV),surp_indprod,0,14
+XLK,spot,Fwd (CV),surp_fedratedec,0,14
+XLK,spot,Bwd (Cp),surp_nfp,0,14
+XLK,spot,Bwd (Cp),surp_unemp,0,14
+XLK,spot,Bwd (Cp),surp_corecpi,13,14
+XLK,spot,Bwd (Cp),surp_gdp,0,14
+XLK,spot,Bwd (Cp),surp_retsales,11,14
+XLK,spot,Bwd (Cp),surp_ism_pmi,0,14
+XLK,spot,Bwd (Cp),surp_dgorders,0,14
+XLK,spot,Bwd (Cp),surp_newhomesales,14,14
+XLK,spot,Bwd (Cp),surp_consconfid,10,14
+XLK,spot,Bwd (Cp),surp_avghourlyearnings,0,14
+XLK,spot,Bwd (Cp),surp_cpi,0,14
+XLK,spot,Bwd (Cp),surp_tradebal,12,14
+XLK,spot,Bwd (Cp),surp_indprod,0,14
+XLK,spot,Bwd (Cp),surp_fedratedec,0,14
+XLK,spot,Bwd (CV),surp_nfp,0,14
+XLK,spot,Bwd (CV),surp_unemp,0,14
+XLK,spot,Bwd (CV),surp_corecpi,0,14
+XLK,spot,Bwd (CV),surp_gdp,0,14
+XLK,spot,Bwd (CV),surp_retsales,0,14
+XLK,spot,Bwd (CV),surp_ism_pmi,0,14
+XLK,spot,Bwd (CV),surp_dgorders,0,14
+XLK,spot,Bwd (CV),surp_newhomesales,14,14
+XLK,spot,Bwd (CV),surp_consconfid,0,14
+XLK,spot,Bwd (CV),surp_avghourlyearnings,0,14
+XLK,spot,Bwd (CV),surp_cpi,0,14
+XLK,spot,Bwd (CV),surp_tradebal,0,14
+XLK,spot,Bwd (CV),surp_indprod,0,14
+XLK,spot,Bwd (CV),surp_fedratedec,0,14
+XLK,spot,Lasso,surp_nfp,0,14
+XLK,spot,Lasso,surp_unemp,0,14
+XLK,spot,Lasso,surp_corecpi,0,14
+XLK,spot,Lasso,surp_gdp,0,14
+XLK,spot,Lasso,surp_retsales,0,14
+XLK,spot,Lasso,surp_ism_pmi,0,14
+XLK,spot,Lasso,surp_dgorders,0,14
+XLK,spot,Lasso,surp_newhomesales,0,14
+XLK,spot,Lasso,surp_consconfid,0,14
+XLK,spot,Lasso,surp_avghourlyearnings,0,14
+XLK,spot,Lasso,surp_cpi,0,14
+XLK,spot,Lasso,surp_tradebal,0,14
+XLK,spot,Lasso,surp_indprod,0,14
+XLK,spot,Lasso,surp_fedratedec,0,14
+XLK,spot,Ridge,surp_nfp,0,14
+XLK,spot,Ridge,surp_unemp,0,14
+XLK,spot,Ridge,surp_corecpi,0,14
+XLK,spot,Ridge,surp_gdp,0,14
+XLK,spot,Ridge,surp_retsales,0,14
+XLK,spot,Ridge,surp_ism_pmi,0,14
+XLK,spot,Ridge,surp_dgorders,0,14
+XLK,spot,Ridge,surp_newhomesales,0,14
+XLK,spot,Ridge,surp_consconfid,0,14
+XLK,spot,Ridge,surp_avghourlyearnings,0,14
+XLK,spot,Ridge,surp_cpi,0,14
+XLK,spot,Ridge,surp_tradebal,0,14
+XLK,spot,Ridge,surp_indprod,0,14
+XLK,spot,Ridge,surp_fedratedec,0,14
+XLK,spot,LGB,surp_nfp,14,14
+XLK,spot,LGB,surp_unemp,13,14
+XLK,spot,LGB,surp_corecpi,12,14
+XLK,spot,LGB,surp_gdp,11,14
+XLK,spot,LGB,surp_retsales,10,14
+XLK,spot,LGB,surp_ism_pmi,9,14
+XLK,spot,LGB,surp_dgorders,8,14
+XLK,spot,LGB,surp_newhomesales,7,14
+XLK,spot,LGB,surp_consconfid,6,14
+XLK,spot,LGB,surp_avghourlyearnings,5,14
+XLK,spot,LGB,surp_cpi,4,14
+XLK,spot,LGB,surp_tradebal,3,14
+XLK,spot,LGB,surp_indprod,2,14
+XLK,spot,LGB,surp_fedratedec,1,14
+XLK,spot,RF,surp_nfp,14,14
+XLK,spot,RF,surp_unemp,13,14
+XLK,spot,RF,surp_corecpi,12,14
+XLK,spot,RF,surp_gdp,11,14
+XLK,spot,RF,surp_retsales,10,14
+XLK,spot,RF,surp_ism_pmi,9,14
+XLK,spot,RF,surp_dgorders,8,14
+XLK,spot,RF,surp_newhomesales,7,14
+XLK,spot,RF,surp_consconfid,6,14
+XLK,spot,RF,surp_avghourlyearnings,5,14
+XLK,spot,RF,surp_cpi,4,14
+XLK,spot,RF,surp_tradebal,3,14
+XLK,spot,RF,surp_indprod,2,14
+XLK,spot,RF,surp_fedratedec,1,14
+ZN,spot,Fwd (Cp),surp_nfp,0,14
+ZN,spot,Fwd (Cp),surp_unemp,0,14
+ZN,spot,Fwd (Cp),surp_corecpi,12,14
+ZN,spot,Fwd (Cp),surp_gdp,14,14
+ZN,spot,Fwd (Cp),surp_retsales,13,14
+ZN,spot,Fwd (Cp),surp_ism_pmi,11,14
+ZN,spot,Fwd (Cp),surp_dgorders,0,14
+ZN,spot,Fwd (Cp),surp_newhomesales,0,14
+ZN,spot,Fwd (Cp),surp_consconfid,9,14
+ZN,spot,Fwd (Cp),surp_avghourlyearnings,0,14
+ZN,spot,Fwd (Cp),surp_cpi,0,14
+ZN,spot,Fwd (Cp),surp_tradebal,0,14
+ZN,spot,Fwd (Cp),surp_indprod,10,14
+ZN,spot,Fwd (Cp),surp_fedratedec,0,14
+ZN,spot,Fwd (CV),surp_nfp,0,14
+ZN,spot,Fwd (CV),surp_unemp,0,14
+ZN,spot,Fwd (CV),surp_corecpi,0,14
+ZN,spot,Fwd (CV),surp_gdp,0,14
+ZN,spot,Fwd (CV),surp_retsales,0,14
+ZN,spot,Fwd (CV),surp_ism_pmi,0,14
+ZN,spot,Fwd (CV),surp_dgorders,0,14
+ZN,spot,Fwd (CV),surp_newhomesales,0,14
+ZN,spot,Fwd (CV),surp_consconfid,0,14
+ZN,spot,Fwd (CV),surp_avghourlyearnings,0,14
+ZN,spot,Fwd (CV),surp_cpi,0,14
+ZN,spot,Fwd (CV),surp_tradebal,0,14
+ZN,spot,Fwd (CV),surp_indprod,0,14
+ZN,spot,Fwd (CV),surp_fedratedec,0,14
+ZN,spot,Bwd (Cp),surp_nfp,0,14
+ZN,spot,Bwd (Cp),surp_unemp,0,14
+ZN,spot,Bwd (Cp),surp_corecpi,12,14
+ZN,spot,Bwd (Cp),surp_gdp,14,14
+ZN,spot,Bwd (Cp),surp_retsales,13,14
+ZN,spot,Bwd (Cp),surp_ism_pmi,11,14
+ZN,spot,Bwd (Cp),surp_dgorders,0,14
+ZN,spot,Bwd (Cp),surp_newhomesales,0,14
+ZN,spot,Bwd (Cp),surp_consconfid,9,14
+ZN,spot,Bwd (Cp),surp_avghourlyearnings,0,14
+ZN,spot,Bwd (Cp),surp_cpi,0,14
+ZN,spot,Bwd (Cp),surp_tradebal,0,14
+ZN,spot,Bwd (Cp),surp_indprod,10,14
+ZN,spot,Bwd (Cp),surp_fedratedec,0,14
+ZN,spot,Bwd (CV),surp_nfp,0,14
+ZN,spot,Bwd (CV),surp_unemp,0,14
+ZN,spot,Bwd (CV),surp_corecpi,14,14
+ZN,spot,Bwd (CV),surp_gdp,0,14
+ZN,spot,Bwd (CV),surp_retsales,0,14
+ZN,spot,Bwd (CV),surp_ism_pmi,0,14
+ZN,spot,Bwd (CV),surp_dgorders,0,14
+ZN,spot,Bwd (CV),surp_newhomesales,0,14
+ZN,spot,Bwd (CV),surp_consconfid,0,14
+ZN,spot,Bwd (CV),surp_avghourlyearnings,0,14
+ZN,spot,Bwd (CV),surp_cpi,0,14
+ZN,spot,Bwd (CV),surp_tradebal,0,14
+ZN,spot,Bwd (CV),surp_indprod,0,14
+ZN,spot,Bwd (CV),surp_fedratedec,0,14
+ZN,spot,Lasso,surp_nfp,0,14
+ZN,spot,Lasso,surp_unemp,0,14
+ZN,spot,Lasso,surp_corecpi,14,14
+ZN,spot,Lasso,surp_gdp,9,14
+ZN,spot,Lasso,surp_retsales,13,14
+ZN,spot,Lasso,surp_ism_pmi,12,14
+ZN,spot,Lasso,surp_dgorders,0,14
+ZN,spot,Lasso,surp_newhomesales,0,14
+ZN,spot,Lasso,surp_consconfid,10,14
+ZN,spot,Lasso,surp_avghourlyearnings,0,14
+ZN,spot,Lasso,surp_cpi,0,14
+ZN,spot,Lasso,surp_tradebal,0,14
+ZN,spot,Lasso,surp_indprod,11,14
+ZN,spot,Lasso,surp_fedratedec,0,14
+ZN,spot,Ridge,surp_nfp,3,14
+ZN,spot,Ridge,surp_unemp,9,14
+ZN,spot,Ridge,surp_corecpi,14,14
+ZN,spot,Ridge,surp_gdp,12,14
+ZN,spot,Ridge,surp_retsales,13,14
+ZN,spot,Ridge,surp_ism_pmi,11,14
+ZN,spot,Ridge,surp_dgorders,2,14
+ZN,spot,Ridge,surp_newhomesales,7,14
+ZN,spot,Ridge,surp_consconfid,8,14
+ZN,spot,Ridge,surp_avghourlyearnings,5,14
+ZN,spot,Ridge,surp_cpi,4,14
+ZN,spot,Ridge,surp_tradebal,6,14
+ZN,spot,Ridge,surp_indprod,10,14
+ZN,spot,Ridge,surp_fedratedec,1,14
+ZN,spot,LGB,surp_nfp,10,14
+ZN,spot,LGB,surp_unemp,6,14
+ZN,spot,LGB,surp_corecpi,5,14
+ZN,spot,LGB,surp_gdp,4,14
+ZN,spot,LGB,surp_retsales,9,14
+ZN,spot,LGB,surp_ism_pmi,11,14
+ZN,spot,LGB,surp_dgorders,13,14
+ZN,spot,LGB,surp_newhomesales,8,14
+ZN,spot,LGB,surp_consconfid,12,14
+ZN,spot,LGB,surp_avghourlyearnings,3,14
+ZN,spot,LGB,surp_cpi,2,14
+ZN,spot,LGB,surp_tradebal,14,14
+ZN,spot,LGB,surp_indprod,7,14
+ZN,spot,LGB,surp_fedratedec,1,14
+ZN,spot,RF,surp_nfp,7,14
+ZN,spot,RF,surp_unemp,6,14
+ZN,spot,RF,surp_corecpi,4,14
+ZN,spot,RF,surp_gdp,2,14
+ZN,spot,RF,surp_retsales,14,14
+ZN,spot,RF,surp_ism_pmi,9,14
+ZN,spot,RF,surp_dgorders,13,14
+ZN,spot,RF,surp_newhomesales,8,14
+ZN,spot,RF,surp_consconfid,12,14
+ZN,spot,RF,surp_avghourlyearnings,3,14
+ZN,spot,RF,surp_cpi,5,14
+ZN,spot,RF,surp_tradebal,10,14
+ZN,spot,RF,surp_indprod,11,14
+ZN,spot,RF,surp_fedratedec,1,14
+EURUSD,spot,Fwd (Cp),surp_nfp,14,14
+EURUSD,spot,Fwd (Cp),surp_unemp,11,14
+EURUSD,spot,Fwd (Cp),surp_corecpi,9,14
+EURUSD,spot,Fwd (Cp),surp_gdp,12,14
+EURUSD,spot,Fwd (Cp),surp_retsales,0,14
+EURUSD,spot,Fwd (Cp),surp_ism_pmi,0,14
+EURUSD,spot,Fwd (Cp),surp_dgorders,0,14
+EURUSD,spot,Fwd (Cp),surp_newhomesales,0,14
+EURUSD,spot,Fwd (Cp),surp_consconfid,0,14
+EURUSD,spot,Fwd (Cp),surp_avghourlyearnings,13,14
+EURUSD,spot,Fwd (Cp),surp_cpi,10,14
+EURUSD,spot,Fwd (Cp),surp_tradebal,0,14
+EURUSD,spot,Fwd (Cp),surp_indprod,0,14
+EURUSD,spot,Fwd (Cp),surp_fedratedec,0,14
+EURUSD,spot,Fwd (CV),surp_nfp,0,14
+EURUSD,spot,Fwd (CV),surp_unemp,0,14
+EURUSD,spot,Fwd (CV),surp_corecpi,0,14
+EURUSD,spot,Fwd (CV),surp_gdp,0,14
+EURUSD,spot,Fwd (CV),surp_retsales,0,14
+EURUSD,spot,Fwd (CV),surp_ism_pmi,0,14
+EURUSD,spot,Fwd (CV),surp_dgorders,0,14
+EURUSD,spot,Fwd (CV),surp_newhomesales,0,14
+EURUSD,spot,Fwd (CV),surp_consconfid,0,14
+EURUSD,spot,Fwd (CV),surp_avghourlyearnings,0,14
+EURUSD,spot,Fwd (CV),surp_cpi,0,14
+EURUSD,spot,Fwd (CV),surp_tradebal,0,14
+EURUSD,spot,Fwd (CV),surp_indprod,0,14
+EURUSD,spot,Fwd (CV),surp_fedratedec,0,14
+EURUSD,spot,Bwd (Cp),surp_nfp,14,14
+EURUSD,spot,Bwd (Cp),surp_unemp,11,14
+EURUSD,spot,Bwd (Cp),surp_corecpi,9,14
+EURUSD,spot,Bwd (Cp),surp_gdp,12,14
+EURUSD,spot,Bwd (Cp),surp_retsales,0,14
+EURUSD,spot,Bwd (Cp),surp_ism_pmi,0,14
+EURUSD,spot,Bwd (Cp),surp_dgorders,0,14
+EURUSD,spot,Bwd (Cp),surp_newhomesales,0,14
+EURUSD,spot,Bwd (Cp),surp_consconfid,0,14
+EURUSD,spot,Bwd (Cp),surp_avghourlyearnings,13,14
+EURUSD,spot,Bwd (Cp),surp_cpi,10,14
+EURUSD,spot,Bwd (Cp),surp_tradebal,0,14
+EURUSD,spot,Bwd (Cp),surp_indprod,0,14
+EURUSD,spot,Bwd (Cp),surp_fedratedec,0,14
+EURUSD,spot,Bwd (CV),surp_nfp,0,14
+EURUSD,spot,Bwd (CV),surp_unemp,0,14
+EURUSD,spot,Bwd (CV),surp_corecpi,0,14
+EURUSD,spot,Bwd (CV),surp_gdp,0,14
+EURUSD,spot,Bwd (CV),surp_retsales,0,14
+EURUSD,spot,Bwd (CV),surp_ism_pmi,0,14
+EURUSD,spot,Bwd (CV),surp_dgorders,0,14
+EURUSD,spot,Bwd (CV),surp_newhomesales,0,14
+EURUSD,spot,Bwd (CV),surp_consconfid,0,14
+EURUSD,spot,Bwd (CV),surp_avghourlyearnings,0,14
+EURUSD,spot,Bwd (CV),surp_cpi,0,14
+EURUSD,spot,Bwd (CV),surp_tradebal,0,14
+EURUSD,spot,Bwd (CV),surp_indprod,0,14
+EURUSD,spot,Bwd (CV),surp_fedratedec,0,14
+EURUSD,spot,Lasso,surp_nfp,0,14
+EURUSD,spot,Lasso,surp_unemp,0,14
+EURUSD,spot,Lasso,surp_corecpi,0,14
+EURUSD,spot,Lasso,surp_gdp,0,14
+EURUSD,spot,Lasso,surp_retsales,0,14
+EURUSD,spot,Lasso,surp_ism_pmi,0,14
+EURUSD,spot,Lasso,surp_dgorders,0,14
+EURUSD,spot,Lasso,surp_newhomesales,0,14
+EURUSD,spot,Lasso,surp_consconfid,0,14
+EURUSD,spot,Lasso,surp_avghourlyearnings,0,14
+EURUSD,spot,Lasso,surp_cpi,0,14
+EURUSD,spot,Lasso,surp_tradebal,0,14
+EURUSD,spot,Lasso,surp_indprod,0,14
+EURUSD,spot,Lasso,surp_fedratedec,0,14
+EURUSD,spot,Ridge,surp_nfp,0,14
+EURUSD,spot,Ridge,surp_unemp,0,14
+EURUSD,spot,Ridge,surp_corecpi,0,14
+EURUSD,spot,Ridge,surp_gdp,0,14
+EURUSD,spot,Ridge,surp_retsales,0,14
+EURUSD,spot,Ridge,surp_ism_pmi,0,14
+EURUSD,spot,Ridge,surp_dgorders,0,14
+EURUSD,spot,Ridge,surp_newhomesales,0,14
+EURUSD,spot,Ridge,surp_consconfid,0,14
+EURUSD,spot,Ridge,surp_avghourlyearnings,0,14
+EURUSD,spot,Ridge,surp_cpi,0,14
+EURUSD,spot,Ridge,surp_tradebal,0,14
+EURUSD,spot,Ridge,surp_indprod,0,14
+EURUSD,spot,Ridge,surp_fedratedec,0,14
+EURUSD,spot,LGB,surp_nfp,14,14
+EURUSD,spot,LGB,surp_unemp,6,14
+EURUSD,spot,LGB,surp_corecpi,4,14
+EURUSD,spot,LGB,surp_gdp,3,14
+EURUSD,spot,LGB,surp_retsales,9,14
+EURUSD,spot,LGB,surp_ism_pmi,12,14
+EURUSD,spot,LGB,surp_dgorders,8,14
+EURUSD,spot,LGB,surp_newhomesales,11,14
+EURUSD,spot,LGB,surp_consconfid,10,14
+EURUSD,spot,LGB,surp_avghourlyearnings,5,14
+EURUSD,spot,LGB,surp_cpi,2,14
+EURUSD,spot,LGB,surp_tradebal,13,14
+EURUSD,spot,LGB,surp_indprod,7,14
+EURUSD,spot,LGB,surp_fedratedec,1,14
+EURUSD,spot,RF,surp_nfp,14,14
+EURUSD,spot,RF,surp_unemp,12,14
+EURUSD,spot,RF,surp_corecpi,5,14
+EURUSD,spot,RF,surp_gdp,2,14
+EURUSD,spot,RF,surp_retsales,9,14
+EURUSD,spot,RF,surp_ism_pmi,8,14
+EURUSD,spot,RF,surp_dgorders,7,14
+EURUSD,spot,RF,surp_newhomesales,6,14
+EURUSD,spot,RF,surp_consconfid,10,14
+EURUSD,spot,RF,surp_avghourlyearnings,13,14
+EURUSD,spot,RF,surp_cpi,3,14
+EURUSD,spot,RF,surp_tradebal,11,14
+EURUSD,spot,RF,surp_indprod,4,14
+EURUSD,spot,RF,surp_fedratedec,1,14
+GC,spot,Fwd (Cp),surp_nfp,0,14
+GC,spot,Fwd (Cp),surp_unemp,14,14
+GC,spot,Fwd (Cp),surp_corecpi,0,14
+GC,spot,Fwd (Cp),surp_gdp,0,14
+GC,spot,Fwd (Cp),surp_retsales,0,14
+GC,spot,Fwd (Cp),surp_ism_pmi,0,14
+GC,spot,Fwd (Cp),surp_dgorders,0,14
+GC,spot,Fwd (Cp),surp_newhomesales,0,14
+GC,spot,Fwd (Cp),surp_consconfid,0,14
+GC,spot,Fwd (Cp),surp_avghourlyearnings,0,14
+GC,spot,Fwd (Cp),surp_cpi,0,14
+GC,spot,Fwd (Cp),surp_tradebal,0,14
+GC,spot,Fwd (Cp),surp_indprod,0,14
+GC,spot,Fwd (Cp),surp_fedratedec,0,14
+GC,spot,Fwd (CV),surp_nfp,0,14
+GC,spot,Fwd (CV),surp_unemp,0,14
+GC,spot,Fwd (CV),surp_corecpi,0,14
+GC,spot,Fwd (CV),surp_gdp,0,14
+GC,spot,Fwd (CV),surp_retsales,0,14
+GC,spot,Fwd (CV),surp_ism_pmi,0,14
+GC,spot,Fwd (CV),surp_dgorders,0,14
+GC,spot,Fwd (CV),surp_newhomesales,0,14
+GC,spot,Fwd (CV),surp_consconfid,0,14
+GC,spot,Fwd (CV),surp_avghourlyearnings,0,14
+GC,spot,Fwd (CV),surp_cpi,0,14
+GC,spot,Fwd (CV),surp_tradebal,0,14
+GC,spot,Fwd (CV),surp_indprod,0,14
+GC,spot,Fwd (CV),surp_fedratedec,0,14
+GC,spot,Bwd (Cp),surp_nfp,0,14
+GC,spot,Bwd (Cp),surp_unemp,14,14
+GC,spot,Bwd (Cp),surp_corecpi,0,14
+GC,spot,Bwd (Cp),surp_gdp,0,14
+GC,spot,Bwd (Cp),surp_retsales,0,14
+GC,spot,Bwd (Cp),surp_ism_pmi,0,14
+GC,spot,Bwd (Cp),surp_dgorders,0,14
+GC,spot,Bwd (Cp),surp_newhomesales,0,14
+GC,spot,Bwd (Cp),surp_consconfid,0,14
+GC,spot,Bwd (Cp),surp_avghourlyearnings,0,14
+GC,spot,Bwd (Cp),surp_cpi,0,14
+GC,spot,Bwd (Cp),surp_tradebal,0,14
+GC,spot,Bwd (Cp),surp_indprod,0,14
+GC,spot,Bwd (Cp),surp_fedratedec,0,14
+GC,spot,Bwd (CV),surp_nfp,0,14
+GC,spot,Bwd (CV),surp_unemp,0,14
+GC,spot,Bwd (CV),surp_corecpi,0,14
+GC,spot,Bwd (CV),surp_gdp,0,14
+GC,spot,Bwd (CV),surp_retsales,0,14
+GC,spot,Bwd (CV),surp_ism_pmi,0,14
+GC,spot,Bwd (CV),surp_dgorders,0,14
+GC,spot,Bwd (CV),surp_newhomesales,0,14
+GC,spot,Bwd (CV),surp_consconfid,0,14
+GC,spot,Bwd (CV),surp_avghourlyearnings,0,14
+GC,spot,Bwd (CV),surp_cpi,0,14
+GC,spot,Bwd (CV),surp_tradebal,0,14
+GC,spot,Bwd (CV),surp_indprod,0,14
+GC,spot,Bwd (CV),surp_fedratedec,0,14
+GC,spot,Lasso,surp_nfp,0,14
+GC,spot,Lasso,surp_unemp,0,14
+GC,spot,Lasso,surp_corecpi,0,14
+GC,spot,Lasso,surp_gdp,0,14
+GC,spot,Lasso,surp_retsales,0,14
+GC,spot,Lasso,surp_ism_pmi,0,14
+GC,spot,Lasso,surp_dgorders,0,14
+GC,spot,Lasso,surp_newhomesales,0,14
+GC,spot,Lasso,surp_consconfid,0,14
+GC,spot,Lasso,surp_avghourlyearnings,0,14
+GC,spot,Lasso,surp_cpi,0,14
+GC,spot,Lasso,surp_tradebal,0,14
+GC,spot,Lasso,surp_indprod,0,14
+GC,spot,Lasso,surp_fedratedec,0,14
+GC,spot,Ridge,surp_nfp,0,14
+GC,spot,Ridge,surp_unemp,0,14
+GC,spot,Ridge,surp_corecpi,0,14
+GC,spot,Ridge,surp_gdp,0,14
+GC,spot,Ridge,surp_retsales,0,14
+GC,spot,Ridge,surp_ism_pmi,0,14
+GC,spot,Ridge,surp_dgorders,0,14
+GC,spot,Ridge,surp_newhomesales,0,14
+GC,spot,Ridge,surp_consconfid,0,14
+GC,spot,Ridge,surp_avghourlyearnings,0,14
+GC,spot,Ridge,surp_cpi,0,14
+GC,spot,Ridge,surp_tradebal,0,14
+GC,spot,Ridge,surp_indprod,0,14
+GC,spot,Ridge,surp_fedratedec,0,14
+GC,spot,LGB,surp_nfp,11,14
+GC,spot,LGB,surp_unemp,6,14
+GC,spot,LGB,surp_corecpi,4,14
+GC,spot,LGB,surp_gdp,3,14
+GC,spot,LGB,surp_retsales,12,14
+GC,spot,LGB,surp_ism_pmi,10,14
+GC,spot,LGB,surp_dgorders,8,14
+GC,spot,LGB,surp_newhomesales,9,14
+GC,spot,LGB,surp_consconfid,14,14
+GC,spot,LGB,surp_avghourlyearnings,5,14
+GC,spot,LGB,surp_cpi,2,14
+GC,spot,LGB,surp_tradebal,13,14
+GC,spot,LGB,surp_indprod,7,14
+GC,spot,LGB,surp_fedratedec,1,14
+GC,spot,RF,surp_nfp,13,14
+GC,spot,RF,surp_unemp,12,14
+GC,spot,RF,surp_corecpi,3,14
+GC,spot,RF,surp_gdp,2,14
+GC,spot,RF,surp_retsales,14,14
+GC,spot,RF,surp_ism_pmi,10,14
+GC,spot,RF,surp_dgorders,7,14
+GC,spot,RF,surp_newhomesales,9,14
+GC,spot,RF,surp_consconfid,6,14
+GC,spot,RF,surp_avghourlyearnings,4,14
+GC,spot,RF,surp_cpi,8,14
+GC,spot,RF,surp_tradebal,11,14
+GC,spot,RF,surp_indprod,5,14
+GC,spot,RF,surp_fedratedec,1,14
+JPYUSD,spot,Fwd (Cp),surp_nfp,14,14
+JPYUSD,spot,Fwd (Cp),surp_unemp,0,14
+JPYUSD,spot,Fwd (Cp),surp_corecpi,10,14
+JPYUSD,spot,Fwd (Cp),surp_gdp,11,14
+JPYUSD,spot,Fwd (Cp),surp_retsales,12,14
+JPYUSD,spot,Fwd (Cp),surp_ism_pmi,0,14
+JPYUSD,spot,Fwd (Cp),surp_dgorders,9,14
+JPYUSD,spot,Fwd (Cp),surp_newhomesales,0,14
+JPYUSD,spot,Fwd (Cp),surp_consconfid,0,14
+JPYUSD,spot,Fwd (Cp),surp_avghourlyearnings,13,14
+JPYUSD,spot,Fwd (Cp),surp_cpi,0,14
+JPYUSD,spot,Fwd (Cp),surp_tradebal,0,14
+JPYUSD,spot,Fwd (Cp),surp_indprod,8,14
+JPYUSD,spot,Fwd (Cp),surp_fedratedec,0,14
+JPYUSD,spot,Fwd (CV),surp_nfp,0,14
+JPYUSD,spot,Fwd (CV),surp_unemp,0,14
+JPYUSD,spot,Fwd (CV),surp_corecpi,0,14
+JPYUSD,spot,Fwd (CV),surp_gdp,0,14
+JPYUSD,spot,Fwd (CV),surp_retsales,0,14
+JPYUSD,spot,Fwd (CV),surp_ism_pmi,0,14
+JPYUSD,spot,Fwd (CV),surp_dgorders,0,14
+JPYUSD,spot,Fwd (CV),surp_newhomesales,0,14
+JPYUSD,spot,Fwd (CV),surp_consconfid,0,14
+JPYUSD,spot,Fwd (CV),surp_avghourlyearnings,0,14
+JPYUSD,spot,Fwd (CV),surp_cpi,0,14
+JPYUSD,spot,Fwd (CV),surp_tradebal,0,14
+JPYUSD,spot,Fwd (CV),surp_indprod,0,14
+JPYUSD,spot,Fwd (CV),surp_fedratedec,0,14
+JPYUSD,spot,Bwd (Cp),surp_nfp,14,14
+JPYUSD,spot,Bwd (Cp),surp_unemp,0,14
+JPYUSD,spot,Bwd (Cp),surp_corecpi,9,14
+JPYUSD,spot,Bwd (Cp),surp_gdp,10,14
+JPYUSD,spot,Bwd (Cp),surp_retsales,11,14
+JPYUSD,spot,Bwd (Cp),surp_ism_pmi,0,14
+JPYUSD,spot,Bwd (Cp),surp_dgorders,0,14
+JPYUSD,spot,Bwd (Cp),surp_newhomesales,12,14
+JPYUSD,spot,Bwd (Cp),surp_consconfid,0,14
+JPYUSD,spot,Bwd (Cp),surp_avghourlyearnings,13,14
+JPYUSD,spot,Bwd (Cp),surp_cpi,0,14
+JPYUSD,spot,Bwd (Cp),surp_tradebal,0,14
+JPYUSD,spot,Bwd (Cp),surp_indprod,8,14
+JPYUSD,spot,Bwd (Cp),surp_fedratedec,0,14
+JPYUSD,spot,Bwd (CV),surp_nfp,0,14
+JPYUSD,spot,Bwd (CV),surp_unemp,0,14
+JPYUSD,spot,Bwd (CV),surp_corecpi,0,14
+JPYUSD,spot,Bwd (CV),surp_gdp,0,14
+JPYUSD,spot,Bwd (CV),surp_retsales,0,14
+JPYUSD,spot,Bwd (CV),surp_ism_pmi,0,14
+JPYUSD,spot,Bwd (CV),surp_dgorders,0,14
+JPYUSD,spot,Bwd (CV),surp_newhomesales,0,14
+JPYUSD,spot,Bwd (CV),surp_consconfid,0,14
+JPYUSD,spot,Bwd (CV),surp_avghourlyearnings,0,14
+JPYUSD,spot,Bwd (CV),surp_cpi,0,14
+JPYUSD,spot,Bwd (CV),surp_tradebal,0,14
+JPYUSD,spot,Bwd (CV),surp_indprod,0,14
+JPYUSD,spot,Bwd (CV),surp_fedratedec,0,14
+JPYUSD,spot,Lasso,surp_nfp,14,14
+JPYUSD,spot,Lasso,surp_unemp,0,14
+JPYUSD,spot,Lasso,surp_corecpi,0,14
+JPYUSD,spot,Lasso,surp_gdp,0,14
+JPYUSD,spot,Lasso,surp_retsales,0,14
+JPYUSD,spot,Lasso,surp_ism_pmi,0,14
+JPYUSD,spot,Lasso,surp_dgorders,0,14
+JPYUSD,spot,Lasso,surp_newhomesales,0,14
+JPYUSD,spot,Lasso,surp_consconfid,0,14
+JPYUSD,spot,Lasso,surp_avghourlyearnings,0,14
+JPYUSD,spot,Lasso,surp_cpi,0,14
+JPYUSD,spot,Lasso,surp_tradebal,0,14
+JPYUSD,spot,Lasso,surp_indprod,0,14
+JPYUSD,spot,Lasso,surp_fedratedec,0,14
+JPYUSD,spot,Ridge,surp_nfp,0,14
+JPYUSD,spot,Ridge,surp_unemp,0,14
+JPYUSD,spot,Ridge,surp_corecpi,0,14
+JPYUSD,spot,Ridge,surp_gdp,0,14
+JPYUSD,spot,Ridge,surp_retsales,0,14
+JPYUSD,spot,Ridge,surp_ism_pmi,0,14
+JPYUSD,spot,Ridge,surp_dgorders,0,14
+JPYUSD,spot,Ridge,surp_newhomesales,0,14
+JPYUSD,spot,Ridge,surp_consconfid,0,14
+JPYUSD,spot,Ridge,surp_avghourlyearnings,0,14
+JPYUSD,spot,Ridge,surp_cpi,0,14
+JPYUSD,spot,Ridge,surp_tradebal,0,14
+JPYUSD,spot,Ridge,surp_indprod,0,14
+JPYUSD,spot,Ridge,surp_fedratedec,0,14
+JPYUSD,spot,LGB,surp_nfp,14,14
+JPYUSD,spot,LGB,surp_unemp,13,14
+JPYUSD,spot,LGB,surp_corecpi,12,14
+JPYUSD,spot,LGB,surp_gdp,11,14
+JPYUSD,spot,LGB,surp_retsales,10,14
+JPYUSD,spot,LGB,surp_ism_pmi,9,14
+JPYUSD,spot,LGB,surp_dgorders,8,14
+JPYUSD,spot,LGB,surp_newhomesales,7,14
+JPYUSD,spot,LGB,surp_consconfid,6,14
+JPYUSD,spot,LGB,surp_avghourlyearnings,5,14
+JPYUSD,spot,LGB,surp_cpi,4,14
+JPYUSD,spot,LGB,surp_tradebal,3,14
+JPYUSD,spot,LGB,surp_indprod,2,14
+JPYUSD,spot,LGB,surp_fedratedec,1,14
+JPYUSD,spot,RF,surp_nfp,14,14
+JPYUSD,spot,RF,surp_unemp,13,14
+JPYUSD,spot,RF,surp_corecpi,12,14
+JPYUSD,spot,RF,surp_gdp,11,14
+JPYUSD,spot,RF,surp_retsales,10,14
+JPYUSD,spot,RF,surp_ism_pmi,9,14
+JPYUSD,spot,RF,surp_dgorders,8,14
+JPYUSD,spot,RF,surp_newhomesales,7,14
+JPYUSD,spot,RF,surp_consconfid,6,14
+JPYUSD,spot,RF,surp_avghourlyearnings,5,14
+JPYUSD,spot,RF,surp_cpi,4,14
+JPYUSD,spot,RF,surp_tradebal,3,14
+JPYUSD,spot,RF,surp_indprod,2,14
+JPYUSD,spot,RF,surp_fedratedec,1,14
+XLV,spot,Fwd (Cp),surp_nfp,0,14
+XLV,spot,Fwd (Cp),surp_unemp,0,14
+XLV,spot,Fwd (Cp),surp_corecpi,11,14
+XLV,spot,Fwd (Cp),surp_gdp,0,14
+XLV,spot,Fwd (Cp),surp_retsales,0,14
+XLV,spot,Fwd (Cp),surp_ism_pmi,0,14
+XLV,spot,Fwd (Cp),surp_dgorders,0,14
+XLV,spot,Fwd (Cp),surp_newhomesales,14,14
+XLV,spot,Fwd (Cp),surp_consconfid,13,14
+XLV,spot,Fwd (Cp),surp_avghourlyearnings,0,14
+XLV,spot,Fwd (Cp),surp_cpi,0,14
+XLV,spot,Fwd (Cp),surp_tradebal,12,14
+XLV,spot,Fwd (Cp),surp_indprod,0,14
+XLV,spot,Fwd (Cp),surp_fedratedec,0,14
+XLV,spot,Fwd (CV),surp_nfp,0,14
+XLV,spot,Fwd (CV),surp_unemp,0,14
+XLV,spot,Fwd (CV),surp_corecpi,0,14
+XLV,spot,Fwd (CV),surp_gdp,0,14
+XLV,spot,Fwd (CV),surp_retsales,0,14
+XLV,spot,Fwd (CV),surp_ism_pmi,0,14
+XLV,spot,Fwd (CV),surp_dgorders,0,14
+XLV,spot,Fwd (CV),surp_newhomesales,0,14
+XLV,spot,Fwd (CV),surp_consconfid,0,14
+XLV,spot,Fwd (CV),surp_avghourlyearnings,0,14
+XLV,spot,Fwd (CV),surp_cpi,0,14
+XLV,spot,Fwd (CV),surp_tradebal,0,14
+XLV,spot,Fwd (CV),surp_indprod,0,14
+XLV,spot,Fwd (CV),surp_fedratedec,0,14
+XLV,spot,Bwd (Cp),surp_nfp,0,14
+XLV,spot,Bwd (Cp),surp_unemp,0,14
+XLV,spot,Bwd (Cp),surp_corecpi,11,14
+XLV,spot,Bwd (Cp),surp_gdp,0,14
+XLV,spot,Bwd (Cp),surp_retsales,0,14
+XLV,spot,Bwd (Cp),surp_ism_pmi,0,14
+XLV,spot,Bwd (Cp),surp_dgorders,0,14
+XLV,spot,Bwd (Cp),surp_newhomesales,14,14
+XLV,spot,Bwd (Cp),surp_consconfid,13,14
+XLV,spot,Bwd (Cp),surp_avghourlyearnings,0,14
+XLV,spot,Bwd (Cp),surp_cpi,0,14
+XLV,spot,Bwd (Cp),surp_tradebal,12,14
+XLV,spot,Bwd (Cp),surp_indprod,0,14
+XLV,spot,Bwd (Cp),surp_fedratedec,0,14
+XLV,spot,Bwd (CV),surp_nfp,0,14
+XLV,spot,Bwd (CV),surp_unemp,0,14
+XLV,spot,Bwd (CV),surp_corecpi,0,14
+XLV,spot,Bwd (CV),surp_gdp,0,14
+XLV,spot,Bwd (CV),surp_retsales,0,14
+XLV,spot,Bwd (CV),surp_ism_pmi,0,14
+XLV,spot,Bwd (CV),surp_dgorders,0,14
+XLV,spot,Bwd (CV),surp_newhomesales,0,14
+XLV,spot,Bwd (CV),surp_consconfid,0,14
+XLV,spot,Bwd (CV),surp_avghourlyearnings,0,14
+XLV,spot,Bwd (CV),surp_cpi,0,14
+XLV,spot,Bwd (CV),surp_tradebal,0,14
+XLV,spot,Bwd (CV),surp_indprod,0,14
+XLV,spot,Bwd (CV),surp_fedratedec,0,14
+XLV,spot,Lasso,surp_nfp,0,14
+XLV,spot,Lasso,surp_unemp,0,14
+XLV,spot,Lasso,surp_corecpi,0,14
+XLV,spot,Lasso,surp_gdp,0,14
+XLV,spot,Lasso,surp_retsales,0,14
+XLV,spot,Lasso,surp_ism_pmi,0,14
+XLV,spot,Lasso,surp_dgorders,0,14
+XLV,spot,Lasso,surp_newhomesales,0,14
+XLV,spot,Lasso,surp_consconfid,0,14
+XLV,spot,Lasso,surp_avghourlyearnings,0,14
+XLV,spot,Lasso,surp_cpi,0,14
+XLV,spot,Lasso,surp_tradebal,0,14
+XLV,spot,Lasso,surp_indprod,0,14
+XLV,spot,Lasso,surp_fedratedec,0,14
+XLV,spot,Ridge,surp_nfp,0,14
+XLV,spot,Ridge,surp_unemp,0,14
+XLV,spot,Ridge,surp_corecpi,0,14
+XLV,spot,Ridge,surp_gdp,0,14
+XLV,spot,Ridge,surp_retsales,0,14
+XLV,spot,Ridge,surp_ism_pmi,0,14
+XLV,spot,Ridge,surp_dgorders,0,14
+XLV,spot,Ridge,surp_newhomesales,0,14
+XLV,spot,Ridge,surp_consconfid,0,14
+XLV,spot,Ridge,surp_avghourlyearnings,0,14
+XLV,spot,Ridge,surp_cpi,0,14
+XLV,spot,Ridge,surp_tradebal,0,14
+XLV,spot,Ridge,surp_indprod,0,14
+XLV,spot,Ridge,surp_fedratedec,0,14
+XLV,spot,LGB,surp_nfp,14,14
+XLV,spot,LGB,surp_unemp,13,14
+XLV,spot,LGB,surp_corecpi,12,14
+XLV,spot,LGB,surp_gdp,11,14
+XLV,spot,LGB,surp_retsales,10,14
+XLV,spot,LGB,surp_ism_pmi,9,14
+XLV,spot,LGB,surp_dgorders,8,14
+XLV,spot,LGB,surp_newhomesales,7,14
+XLV,spot,LGB,surp_consconfid,6,14
+XLV,spot,LGB,surp_avghourlyearnings,5,14
+XLV,spot,LGB,surp_cpi,4,14
+XLV,spot,LGB,surp_tradebal,3,14
+XLV,spot,LGB,surp_indprod,2,14
+XLV,spot,LGB,surp_fedratedec,1,14
+XLV,spot,RF,surp_nfp,10,14
+XLV,spot,RF,surp_unemp,6,14
+XLV,spot,RF,surp_corecpi,3,14
+XLV,spot,RF,surp_gdp,2,14
+XLV,spot,RF,surp_retsales,8,14
+XLV,spot,RF,surp_ism_pmi,9,14
+XLV,spot,RF,surp_dgorders,14,14
+XLV,spot,RF,surp_newhomesales,11,14
+XLV,spot,RF,surp_consconfid,12,14
+XLV,spot,RF,surp_avghourlyearnings,5,14
+XLV,spot,RF,surp_cpi,4,14
+XLV,spot,RF,surp_tradebal,13,14
+XLV,spot,RF,surp_indprod,7,14
+XLV,spot,RF,surp_fedratedec,1,14
+ZT,spot,Fwd (Cp),surp_nfp,0,14
+ZT,spot,Fwd (Cp),surp_unemp,12,14
+ZT,spot,Fwd (Cp),surp_corecpi,11,14
+ZT,spot,Fwd (Cp),surp_gdp,0,14
+ZT,spot,Fwd (Cp),surp_retsales,14,14
+ZT,spot,Fwd (Cp),surp_ism_pmi,13,14
+ZT,spot,Fwd (Cp),surp_dgorders,0,14
+ZT,spot,Fwd (Cp),surp_newhomesales,0,14
+ZT,spot,Fwd (Cp),surp_consconfid,10,14
+ZT,spot,Fwd (Cp),surp_avghourlyearnings,0,14
+ZT,spot,Fwd (Cp),surp_cpi,9,14
+ZT,spot,Fwd (Cp),surp_tradebal,0,14
+ZT,spot,Fwd (Cp),surp_indprod,8,14
+ZT,spot,Fwd (Cp),surp_fedratedec,0,14
+ZT,spot,Fwd (CV),surp_nfp,0,14
+ZT,spot,Fwd (CV),surp_unemp,0,14
+ZT,spot,Fwd (CV),surp_corecpi,0,14
+ZT,spot,Fwd (CV),surp_gdp,0,14
+ZT,spot,Fwd (CV),surp_retsales,0,14
+ZT,spot,Fwd (CV),surp_ism_pmi,0,14
+ZT,spot,Fwd (CV),surp_dgorders,0,14
+ZT,spot,Fwd (CV),surp_newhomesales,0,14
+ZT,spot,Fwd (CV),surp_consconfid,0,14
+ZT,spot,Fwd (CV),surp_avghourlyearnings,0,14
+ZT,spot,Fwd (CV),surp_cpi,0,14
+ZT,spot,Fwd (CV),surp_tradebal,0,14
+ZT,spot,Fwd (CV),surp_indprod,0,14
+ZT,spot,Fwd (CV),surp_fedratedec,0,14
+ZT,spot,Bwd (Cp),surp_nfp,8,14
+ZT,spot,Bwd (Cp),surp_unemp,9,14
+ZT,spot,Bwd (Cp),surp_corecpi,10,14
+ZT,spot,Bwd (Cp),surp_gdp,0,14
+ZT,spot,Bwd (Cp),surp_retsales,13,14
+ZT,spot,Bwd (Cp),surp_ism_pmi,12,14
+ZT,spot,Bwd (Cp),surp_dgorders,0,14
+ZT,spot,Bwd (Cp),surp_newhomesales,0,14
+ZT,spot,Bwd (Cp),surp_consconfid,7,14
+ZT,spot,Bwd (Cp),surp_avghourlyearnings,11,14
+ZT,spot,Bwd (Cp),surp_cpi,6,14
+ZT,spot,Bwd (Cp),surp_tradebal,0,14
+ZT,spot,Bwd (Cp),surp_indprod,5,14
+ZT,spot,Bwd (Cp),surp_fedratedec,14,14
+ZT,spot,Bwd (CV),surp_nfp,0,14
+ZT,spot,Bwd (CV),surp_unemp,0,14
+ZT,spot,Bwd (CV),surp_corecpi,0,14
+ZT,spot,Bwd (CV),surp_gdp,0,14
+ZT,spot,Bwd (CV),surp_retsales,0,14
+ZT,spot,Bwd (CV),surp_ism_pmi,0,14
+ZT,spot,Bwd (CV),surp_dgorders,0,14
+ZT,spot,Bwd (CV),surp_newhomesales,0,14
+ZT,spot,Bwd (CV),surp_consconfid,0,14
+ZT,spot,Bwd (CV),surp_avghourlyearnings,0,14
+ZT,spot,Bwd (CV),surp_cpi,0,14
+ZT,spot,Bwd (CV),surp_tradebal,0,14
+ZT,spot,Bwd (CV),surp_indprod,0,14
+ZT,spot,Bwd (CV),surp_fedratedec,0,14
+ZT,spot,Lasso,surp_nfp,0,14
+ZT,spot,Lasso,surp_unemp,0,14
+ZT,spot,Lasso,surp_corecpi,0,14
+ZT,spot,Lasso,surp_gdp,0,14
+ZT,spot,Lasso,surp_retsales,0,14
+ZT,spot,Lasso,surp_ism_pmi,0,14
+ZT,spot,Lasso,surp_dgorders,0,14
+ZT,spot,Lasso,surp_newhomesales,0,14
+ZT,spot,Lasso,surp_consconfid,0,14
+ZT,spot,Lasso,surp_avghourlyearnings,0,14
+ZT,spot,Lasso,surp_cpi,0,14
+ZT,spot,Lasso,surp_tradebal,0,14
+ZT,spot,Lasso,surp_indprod,14,14
+ZT,spot,Lasso,surp_fedratedec,0,14
+ZT,spot,Ridge,surp_nfp,5,14
+ZT,spot,Ridge,surp_unemp,11,14
+ZT,spot,Ridge,surp_corecpi,12,14
+ZT,spot,Ridge,surp_gdp,7,14
+ZT,spot,Ridge,surp_retsales,13,14
+ZT,spot,Ridge,surp_ism_pmi,14,14
+ZT,spot,Ridge,surp_dgorders,4,14
+ZT,spot,Ridge,surp_newhomesales,3,14
+ZT,spot,Ridge,surp_consconfid,10,14
+ZT,spot,Ridge,surp_avghourlyearnings,9,14
+ZT,spot,Ridge,surp_cpi,6,14
+ZT,spot,Ridge,surp_tradebal,0,14
+ZT,spot,Ridge,surp_indprod,8,14
+ZT,spot,Ridge,surp_fedratedec,2,14
+ZT,spot,LGB,surp_nfp,14,14
+ZT,spot,LGB,surp_unemp,13,14
+ZT,spot,LGB,surp_corecpi,12,14
+ZT,spot,LGB,surp_gdp,11,14
+ZT,spot,LGB,surp_retsales,10,14
+ZT,spot,LGB,surp_ism_pmi,9,14
+ZT,spot,LGB,surp_dgorders,8,14
+ZT,spot,LGB,surp_newhomesales,7,14
+ZT,spot,LGB,surp_consconfid,6,14
+ZT,spot,LGB,surp_avghourlyearnings,5,14
+ZT,spot,LGB,surp_cpi,4,14
+ZT,spot,LGB,surp_tradebal,3,14
+ZT,spot,LGB,surp_indprod,2,14
+ZT,spot,LGB,surp_fedratedec,1,14
+ZT,spot,RF,surp_nfp,6,14
+ZT,spot,RF,surp_unemp,5,14
+ZT,spot,RF,surp_corecpi,3,14
+ZT,spot,RF,surp_gdp,2,14
+ZT,spot,RF,surp_retsales,14,14
+ZT,spot,RF,surp_ism_pmi,10,14
+ZT,spot,RF,surp_dgorders,13,14
+ZT,spot,RF,surp_newhomesales,11,14
+ZT,spot,RF,surp_consconfid,9,14
+ZT,spot,RF,surp_avghourlyearnings,8,14
+ZT,spot,RF,surp_cpi,4,14
+ZT,spot,RF,surp_tradebal,7,14
+ZT,spot,RF,surp_indprod,12,14
+ZT,spot,RF,surp_fedratedec,1,14
