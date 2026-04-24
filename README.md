@@ -127,4 +127,4 @@ pip install numpy pandas scipy statsmodels scikit-learn lightgbm shap joblib yfi
 
 ## Reproducibility note
 
-Running `linear_models_selection_daily_vix_noar_surpstd.py` from scratch takes several hours due to the expanding-window evaluation across 70 targets. The pre-computed checkpoint in `FINAL - results_final - used for interpretation, tables - FINAL/_checkpoint_noar_surpstd.pkl` is copied to `outcomes/` before re-running the plotting and summary sections to save time.
+Running `main_machine_learning_pipeline_final.py` from scratch takes several hours due to the expanding-window evaluation across 70 targets. The pre-computed checkpoint in `FINAL - results_final - used for interpretation, tables - FINAL/_checkpoint_noar_surpstd.pkl` is copied to `outcomes/` before re-running the plotting and summary sections to save time.
